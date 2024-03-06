@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Relacionamento</fullName>
+    <active>true</active>
+    <description>Valida se há uma Conta, Lead ou Prospect preenchido para o pedido de reembolso</description>
+    <errorConditionFormula>ISBLANK(Conta__c) &amp;&amp; ISBLANK (Lead__c) &amp;&amp; ISBLANK (Prospect__c)</errorConditionFormula>
+    <errorMessage>A Conta, Lead ou Prospect correspondente ao pedido de reembolso deve ser preenchido.</errorMessage>
+</ValidationRule>

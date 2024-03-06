@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Para_uso_do_flow__c</fullName>
+    <externalId>false</externalId>
+    <label>Para uso do flow</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>flow_aprendiz_ativa</fullName>
+                <default>false</default>
+                <label>flow_aprendiz_ativa</label>
+            </value>
+            <value>
+                <fullName>flow_aprendiz_aumento</fullName>
+                <default>false</default>
+                <label>flow_aprendiz_aumento</label>
+            </value>
+            <value>
+                <fullName>flow_aprendiz_queda</fullName>
+                <default>false</default>
+                <label>flow_aprendiz_queda</label>
+            </value>
+            <value>
+                <fullName>flow_aprendiz_inativa</fullName>
+                <default>false</default>
+                <label>flow_aprendiz_inativa</label>
+            </value>
+            <value>
+                <fullName>flow_estagio_ativa</fullName>
+                <default>false</default>
+                <label>flow_estagio_ativa</label>
+            </value>
+            <value>
+                <fullName>flow_estagio_aumento</fullName>
+                <default>false</default>
+                <label>flow_estagio_aumento</label>
+            </value>
+            <value>
+                <fullName>flow_estagio_queda</fullName>
+                <default>false</default>
+                <label>flow_estagio_queda</label>
+            </value>
+            <value>
+                <fullName>flow_estagio_inativa</fullName>
+                <default>false</default>
+                <label>flow_estagio_inativa</label>
+            </value>
+            <value>
+                <fullName>Negados GMC</fullName>
+                <default>false</default>
+                <label>Negados GMC</label>
+            </value>
+            <value>
+                <fullName>Correção</fullName>
+                <default>false</default>
+                <label>Correção</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

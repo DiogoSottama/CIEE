@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_Stand_by__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Especificar porque a oportunidade está em espera.</inlineHelpText>
+    <label>Motivo - Stand by</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>One</fullName>
+                <default>false</default>
+                <label>One</label>
+            </value>
+            <value>
+                <fullName>Inclui</fullName>
+                <default>false</default>
+                <label>Inclui</label>
+            </value>
+            <value>
+                <fullName>2021</fullName>
+                <default>false</default>
+                <label>2021</label>
+            </value>
+            <value>
+                <fullName>2022</fullName>
+                <default>false</default>
+                <label>2022</label>
+            </value>
+            <value>
+                <fullName>Pandemia</fullName>
+                <default>false</default>
+                <label>Pandemia</label>
+            </value>
+            <value>
+                <fullName>2023</fullName>
+                <default>false</default>
+                <label>2023</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Stand by</controllingFieldValue>
+            <valueName>One</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stand by</controllingFieldValue>
+            <valueName>Inclui</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stand by</controllingFieldValue>
+            <valueName>2021</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stand by</controllingFieldValue>
+            <valueName>2022</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stand by</controllingFieldValue>
+            <valueName>Pandemia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stand by</controllingFieldValue>
+            <valueName>2023</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

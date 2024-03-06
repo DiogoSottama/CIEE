@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Formato_Do_CEP</fullName>
+    <active>true</active>
+    <description>verifica o formato do campo &quot;Do CEP&quot;</description>
+    <errorConditionFormula>IF(REGEX( Do_CEP__c ,&quot;[0-9]{5}-[0-9]{3}&quot;), false, true)</errorConditionFormula>
+    <errorDisplayField>Do_CEP__c</errorDisplayField>
+    <errorMessage>Formato do CEP incorreto.</errorMessage>
+</ValidationRule>

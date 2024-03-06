@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oportunidades_Ganhas_Sem_Formulario</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Contato__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Formul_rio_preenchido__c</columns>
+    <columns>Formul_rio_de_Contrata_o_PRD__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Fechado / Ganho</value>
+    </filters>
+    <filters>
+        <field>Formul_rio_preenchido__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Formul_rio_de_Contrata_o_PRD__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Oportunidades Ganhas Sem Formulário</label>
+    <sharedTo>
+        <role>IPM</role>
+    </sharedTo>
+</ListView>

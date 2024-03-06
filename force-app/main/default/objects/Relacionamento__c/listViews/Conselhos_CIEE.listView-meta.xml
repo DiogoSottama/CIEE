@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conselhos_CIEE</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Nome_da_base__c</field>
+        <operation>equals</operation>
+        <value>Conselho Geral do CIEE</value>
+    </filters>
+    <label>Conselhos CIEE</label>
+    <sharedTo>
+        <role>Bases_de_relacionamento</role>
+    </sharedTo>
+</ListView>

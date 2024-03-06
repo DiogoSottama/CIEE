@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Envia para o aprovador a despesa e muda o status para Enviado para o Relatório.</description>
+    <fieldOverrides>
+        <field>Status__c</field>
+        <literalValue>Enviado_para_o_Relatorio</literalValue>
+    </fieldOverrides>
+    <label>Enviar para o Relatório</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Name</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <successMessage>Enviado com sucesso!</successMessage>
+    <type>Update</type>
+</QuickAction>

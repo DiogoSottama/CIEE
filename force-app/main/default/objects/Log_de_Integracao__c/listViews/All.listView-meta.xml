@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Classe_Apex__c</columns>
+    <columns>Codigo_do_Status_da_Resposta__c</columns>
+    <columns>Endpoint_Utilizado__c</columns>
+    <columns>Status_da_Resposta__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Tudo</label>
+</ListView>

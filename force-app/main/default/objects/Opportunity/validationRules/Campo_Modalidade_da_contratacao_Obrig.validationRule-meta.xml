@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campo_Modalidade_da_contratacao_Obrig</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+				CASE(StageName, &quot;Fechado / Ganho&quot;,1, &quot;Contrato DocuSign&quot; ,1,0)=1,
+				TEXT(Produto_Servico__c)=&apos;Aprendiz&apos;,
+				ISBLANK(TEXT(Modalidade_da_contrata_o__c))
+))</errorConditionFormula>
+    <errorMessage>Preencha o Campo &quot;Modalidade da contratação&quot; para passar para proxima fase</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Formul_rio_de_Contrata_o_PRD__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Assinalar quando a empresa enviar o Formulário de Contratação preenchido</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Assinalar quando a empresa enviar o Formulário de Contratação preenchido</inlineHelpText>
+    <label>Formulário de Contratação (PRD)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Como_conheceu_o_CIEE__c</fullName>
+    <description>Campo complementar a Origem do lead para acompanhar como os leads e contas conheceram o CIEE.</description>
+    <externalId>false</externalId>
+    <label>Como conheceu o CIEE?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abrafiltros</fullName>
+                <default>false</default>
+                <label>Abrafiltros</label>
+            </value>
+            <value>
+                <fullName>Anúncio na internet</fullName>
+                <default>false</default>
+                <label>Anúncio na internet</label>
+            </value>
+            <value>
+                <fullName>Busca na internet</fullName>
+                <default>false</default>
+                <label>Busca na internet</label>
+            </value>
+            <value>
+                <fullName>CEPAC Barueri</fullName>
+                <default>false</default>
+                <label>CEPAC Barueri</label>
+            </value>
+            <value>
+                <fullName>Conheceu durante a faculdade</fullName>
+                <default>false</default>
+                <label>Conheceu durante a faculdade</label>
+            </value>
+            <value>
+                <fullName>Contato anterior do CIEE</fullName>
+                <default>false</default>
+                <label>Contato anterior do CIEE</label>
+            </value>
+            <value>
+                <fullName>CRA/SP</fullName>
+                <default>false</default>
+                <label>CRA/SP</label>
+            </value>
+            <value>
+                <fullName>Elevador</fullName>
+                <default>false</default>
+                <label>Elevador</label>
+            </value>
+            <value>
+                <fullName>Ex-Estagiário/Aprendiz</fullName>
+                <default>false</default>
+                <label>Ex-Estagiário/Aprendiz</label>
+            </value>
+            <value>
+                <fullName>Indicação de amigo/família</fullName>
+                <default>false</default>
+                <label>Indicação de amigo/família</label>
+            </value>
+            <value>
+                <fullName>Indicação de contador</fullName>
+                <default>false</default>
+                <label>Indicação de contador</label>
+            </value>
+            <value>
+                <fullName>Indicação entre empresas</fullName>
+                <default>false</default>
+                <label>Indicação entre empresas</label>
+            </value>
+            <value>
+                <fullName>Já possui convênio</fullName>
+                <default>false</default>
+                <label>Já possui convênio</label>
+            </value>
+            <value>
+                <fullName>MP Educacional</fullName>
+                <default>false</default>
+                <label>MP Educacional</label>
+            </value>
+            <value>
+                <fullName>OAB/MT</fullName>
+                <default>false</default>
+                <label>OAB/MT</label>
+            </value>
+            <value>
+                <fullName>Parceria anterior em outra empresa</fullName>
+                <default>false</default>
+                <label>Parceria anterior em outra empresa</label>
+            </value>
+            <value>
+                <fullName>Pense Contabilidade Escolar</fullName>
+                <default>false</default>
+                <label>Pense Contabilidade Escolar</label>
+            </value>
+            <value>
+                <fullName>Prepara Cursos</fullName>
+                <default>false</default>
+                <label>Prepara Cursos</label>
+            </value>
+            <value>
+                <fullName>PRONTZ</fullName>
+                <default>false</default>
+                <label>PRONTZ</label>
+            </value>
+            <value>
+                <fullName>SIMESPI</fullName>
+                <default>false</default>
+                <label>SIMESPI</label>
+            </value>
+            <value>
+                <fullName>Sindilojas</fullName>
+                <default>false</default>
+                <label>Sindilojas</label>
+            </value>
+            <value>
+                <fullName>CRA / SP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CRA / SP</label>
+            </value>
+            <value>
+                <fullName>Parceria anterior</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parceria anterior</label>
+            </value>
+            <value>
+                <fullName>Pense</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pense</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

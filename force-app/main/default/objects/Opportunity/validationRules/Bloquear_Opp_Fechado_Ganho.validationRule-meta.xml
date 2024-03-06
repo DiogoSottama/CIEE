@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bloquear_Opp_Fechado_Ganho</fullName>
+    <active>true</active>
+    <description>//rmelo 2022-06-09 10:18:21 campo Amount removido da regra</description>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+				NOT($Profile.Name = &quot;Administrador do sistema&quot;),
+				NOT($Profile.Name = &quot;System Administrator&quot;),
+				ISPICKVAL(PRIORVALUE(StageName), &apos;Fechado / Ganho&apos;),
+				IF(
+								OR(
+												ISCHANGED(Potencial_de_vagas_OLD__c),
+												ISCHANGED(Desconto_na_CI__c),
+												ISCHANGED(Amount),
+												ISCHANGED(Id_kairos__c),
+												ISCHANGED(Isencao__c),
+												ISCHANGED(Justificativa_do_valor_da_proposta__c),
+												ISCHANGED(Formul_rio_preenchido__c),
+												ISCHANGED(Categoria__c),
+												ISCHANGED(Dados_validados__c),
+												ISCHANGED(Formul_rio_de_Contrata_o_PRD__c),
+												ISCHANGED(CIEE_Saude__c),
+												ISCHANGED(Aviso_enviado__c),
+												ISCHANGED(CloseDate),
+												ISCHANGED(ExpectedRevenue)
+								),
+								IF(
+												OR(
+																ISCHANGED(AccountId),
+																ISCHANGED(Ano__c),
+																ISCHANGED(AtendimentoPersonalizado__c),
+																ISCHANGED(Budget_Confirmed__c),
+																ISCHANGED(Campanha__c),
+																ISCHANGED(Concorrente__c),
+																ISCHANGED(Usuario__c),
+																ISCHANGED(Contato__c),
+																ISCHANGED(ContractId),
+																ISCHANGED(CreatedById),
+																ISCHANGED(Cursos_Aprendizagem__c),
+																ISCHANGED(Data_de_validade_da_proposta__c),
+																ISCHANGED(Description),
+																ISCHANGED(Discovery_Completed__c),
+																ISCHANGED(EmailDoGrupoPersonalizado__c),
+																ISCHANGED(Cidade_Expo_CIEE__c),
+																ISCHANGED(ExpectedRevenue),
+																ISCHANGED(ForecastCategoryName),
+																ISCHANGED(Formato_de_Participa_o__c),
+																ISCHANGED(GrupoEconomico__c),
+																ISCHANGED(LID__Is_Influenced__c),
+																ISCHANGED(LastModifiedById),
+																ISCHANGED(LeadSource),
+																ISCHANGED(LID__LinkedIn_Company_Id__c),
+																ISCHANGED(Loss_Reason__c),
+																ISCHANGED(Metragem__c),
+																ISCHANGED(Motivo_Stand_by__c),
+																ISCHANGED(Motivo_Unidade__c),
+																ISCHANGED(MotivoDaPerda__c),
+																ISCHANGED(Motivo_de_perda_Feiras__c),
+																ISCHANGED(NextStep),
+																ISCHANGED(Nome_da_Campanha__c),
+																ISCHANGED(N_Pr_Cadastro__c),
+																ISCHANGED(ObservacaoDeAtencao__c),
+																ISCHANGED(Observa_esOportunidade__c),
+																ISCHANGED(Name),
+																ISCHANGED(OwnerId),
+																ISCHANGED(RecordTypeId),
+																ISCHANGED(Outros__c),
+																ISCHANGED(Outros_Feiras__c),
+																ISCHANGED(Pricebook2Id),
+																ISCHANGED(CampaignId),
+																ISCHANGED(IsPrivate),
+																ISCHANGED(Probability),
+																ISCHANGED(Produto_Servico__c),
+																ISCHANGED(ProdutosServicos__c),
+																ISCHANGED(QuantidadeDeFuncionarios__c),
+																ISCHANGED(QuantidadeDeFuncionrios__c),
+																ISCHANGED(TotalOpportunityQuantity),
+																ISCHANGED(Rating__c),
+																ISCHANGED(ROI_Analysis_Completed__c),
+																ISCHANGED(StageName),
+																ISCHANGED(SyncedQuoteId),
+																ISCHANGED(Tipo_de_estande__c),
+																ISCHANGED(Type),
+																ISCHANGED(Unidade__c)
+												),
+												TRUE,
+												FALSE
+								),
+								TRUE
+				)
+))</errorConditionFormula>
+    <errorMessage>Este(s) campo(s) não pode(m) ser editado(s) após o fechamento da Oportunidade. Caso haja a necessidade, contate um administrador do sistema.</errorMessage>
+</ValidationRule>

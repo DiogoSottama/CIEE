@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MotivoDaPerda__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo da perda</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aderência ao público</fullName>
+                <default>false</default>
+                <label>Aderência ao público</label>
+            </value>
+            <value>
+                <fullName>Atividade incompatível com Estágio/Aprendizagem</fullName>
+                <default>false</default>
+                <label>Atividade incompatível com Estágio/Aprendizagem</label>
+            </value>
+            <value>
+                <fullName>Calendário</fullName>
+                <default>false</default>
+                <label>Calendário</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo</label>
+            </value>
+            <value>
+                <fullName>Concorrencia_modelo_de_atendimento</fullName>
+                <default>false</default>
+                <label>Concorrência - modelo de atendimento</label>
+            </value>
+            <value>
+                <fullName>Concorrência - não identificado</fullName>
+                <default>false</default>
+                <label>Concorrência - não identificado</label>
+            </value>
+            <value>
+                <fullName>Concorrência_preco</fullName>
+                <default>false</default>
+                <label>Concorrência - preço</label>
+            </value>
+            <value>
+                <fullName>Contratação CLT</fullName>
+                <default>false</default>
+                <label>Contratação CLT</label>
+            </value>
+            <value>
+                <fullName>Contratação direta via IE</fullName>
+                <default>false</default>
+                <label>Contratação direta via IE</label>
+            </value>
+            <value>
+                <fullName>Contratando por outro CNPJ</fullName>
+                <default>false</default>
+                <label>Contratando por outro CNPJ</label>
+            </value>
+            <value>
+                <fullName>Empresa deseja contratar 100% home office</fullName>
+                <default>false</default>
+                <label>Empresa deseja contratar 100% home office</label>
+            </value>
+            <value>
+                <fullName>Experiência na Expo 2020</fullName>
+                <default>false</default>
+                <label>Experiência na Expo 2020</label>
+            </value>
+            <value>
+                <fullName>Falta de retorno da empresa</fullName>
+                <default>false</default>
+                <label>Falta de retorno da empresa</label>
+            </value>
+            <value>
+                <fullName>Não está no momento ideal para a compra</fullName>
+                <default>false</default>
+                <label>Não está no momento ideal para a compra</label>
+            </value>
+            <value>
+                <fullName>Orçamento</fullName>
+                <default>false</default>
+                <label>Orçamento</label>
+            </value>
+            <value>
+                <fullName>outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+            <value>
+                <fullName>Parceria fechada com Aprendiz ou Estágio</fullName>
+                <default>false</default>
+                <label>Parceria fechada com Aprendiz ou Estágio</label>
+            </value>
+            <value>
+                <fullName>Parceria fechada com Inclui ou One.</fullName>
+                <default>false</default>
+                <label>Parceria fechada com Inclui ou One.</label>
+            </value>
+            <value>
+                <fullName>Problemas anteriores</fullName>
+                <default>false</default>
+                <label>Problemas anteriores</label>
+            </value>
+            <value>
+                <fullName>Sem previsão de contratação</fullName>
+                <default>false</default>
+                <label>Sem previsão de contratação</label>
+            </value>
+            <value>
+                <fullName>Oportunidade duplicada</fullName>
+                <default>false</default>
+                <label>Oportunidade duplicada</label>
+            </value>
+            <value>
+                <fullName>Não temos pólo próximo</fullName>
+                <default>false</default>
+                <label>Não temos pólo próximo</label>
+            </value>
+            <value>
+                <fullName>Oportunidade em duplicidade</fullName>
+                <default>false</default>
+                <label>Oportunidade em duplicidade</label>
+            </value>
+            <value>
+                <fullName>CIEE não possui pólo de capacitação presencial próximo</fullName>
+                <default>false</default>
+                <label>CIEE não possui pólo de capacitação presencial próximo</label>
+            </value>
+            <value>
+                <fullName>Empresa não deseja aguardar a validação da capacitação EAD</fullName>
+                <default>false</default>
+                <label>Empresa não deseja aguardar a validação da capacitação EAD</label>
+            </value>
+            <value>
+                <fullName>Não temos turmas disponíveis em Ribeirão Preto</fullName>
+                <default>false</default>
+                <label>Não temos turmas disponíveis em Ribeirão Preto</label>
+            </value>
+            <value>
+                <fullName>Tentativas excedidas de contato</fullName>
+                <default>false</default>
+                <label>Tentativas excedidas de contato</label>
+            </value>
+            <value>
+                <fullName>Sem retorno da assinatura na fase Contrato DocuSign</fullName>
+                <default>false</default>
+                <label>Sem retorno da assinatura na fase Contrato DocuSign</label>
+            </value>
+            <value>
+                <fullName>Empresa declinou da parceria sem justificativa</fullName>
+                <default>false</default>
+                <label>Empresa declinou da parceria sem justificativa</label>
+            </value>
+            <value>
+                <fullName>Sem supervisão com conhecimento ou formação na área de atuação do estagiário</fullName>
+                <default>false</default>
+                <label>Sem supervisão com conhecimento ou formação na área de atuação do estagiário</label>
+            </value>
+            <value>
+                <fullName>Preferência pela concorrência</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Preferência pela concorrência</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Atividade incompatível com Estágio/Aprendizagem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>CIEE Autônomo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Concorrencia_modelo_de_atendimento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Concorrência - não identificado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Concorrência_preco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Contratação CLT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Contratação direta via IE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Contratando por outro CNPJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Empresa deseja contratar 100% home office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Experiência na Expo 2020</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Falta de retorno da empresa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Não está no momento ideal para a compra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Orçamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>outros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Parceria fechada com Aprendiz ou Estágio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Parceria fechada com Inclui ou One.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Problemas anteriores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Sem previsão de contratação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Oportunidade em duplicidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>CIEE não possui pólo de capacitação presencial próximo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Empresa não deseja aguardar a validação da capacitação EAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Não temos turmas disponíveis em Ribeirão Preto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Tentativas excedidas de contato</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Sem retorno da assinatura na fase Contrato DocuSign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Empresa declinou da parceria sem justificativa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Sem supervisão com conhecimento ou formação na área de atuação do estagiário</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

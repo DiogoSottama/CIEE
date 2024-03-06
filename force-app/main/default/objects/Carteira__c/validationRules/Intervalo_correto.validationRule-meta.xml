@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intervalo_correto</fullName>
+    <active>true</active>
+    <description>verifica se o CEP de inicio é menor que o CEP final</description>
+    <errorConditionFormula>VALUE(LEFT(Do_CEP__c,3)&amp;RIGHT(Do_CEP__c,3))&gt;VALUE(LEFT(Ate_o_CEP__c ,3)&amp;RIGHT(Ate_o_CEP__c ,3))</errorConditionFormula>
+    <errorMessage>O CEP inicial deve ser menor que o CEP final.</errorMessage>
+</ValidationRule>

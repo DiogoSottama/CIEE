@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meus_prospects_CIEE</fullName>
+    <columns>NAME</columns>
+    <columns>Status_do_prospect__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <filterScope>Mine</filterScope>
+    <label>Meus prospects</label>
+</ListView>

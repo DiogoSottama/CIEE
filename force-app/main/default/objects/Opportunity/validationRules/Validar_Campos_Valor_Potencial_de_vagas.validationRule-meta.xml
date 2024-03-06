@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Campos_Valor_Potencial_de_vagas</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+				ISPICKVAL(StageName, &apos;Fechado / Ganho&apos;),
+				OR(
+								ISBLANK(Potencial_de_Vagas2__c),
+								ISBLANK(Amount)							
+
+				)
+
+))</errorConditionFormula>
+    <errorMessage>Preencha os Campos &quot;potencial de vagas&quot; e &quot;valor&quot; para fechar como ganho essa Oportunidade.</errorMessage>
+</ValidationRule>

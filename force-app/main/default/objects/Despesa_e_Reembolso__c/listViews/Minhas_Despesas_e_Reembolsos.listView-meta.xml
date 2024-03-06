@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minhas_Despesas_e_Reembolsos</fullName>
+    <columns>NAME</columns>
+    <columns>Check_in__c</columns>
+    <columns>Tipo_de_Despesa__c</columns>
+    <columns>Km__c</columns>
+    <columns>Valor_do_Reembolso_de_KM__c</columns>
+    <columns>Status__c</columns>
+    <columns>Motivo_da_Recusa__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Minhas Despesas e Reembolsos (Tudo)</label>
+</ListView>

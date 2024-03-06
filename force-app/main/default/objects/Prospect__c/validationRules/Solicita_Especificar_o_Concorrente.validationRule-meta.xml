@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solicita_Especificar_o_Concorrente</fullName>
+    <active>true</active>
+    <description>Essa regra torna o campo Outro(s) concorrente(s) obrigatório quando a opção Outros no campo Trabalha com algum concorrente? é selecionada.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Trabalha_com_algum_concorrente__c , &quot;Outros&quot;),
+ISBLANK(Outro_s_concorrente_s__c))</errorConditionFormula>
+    <errorDisplayField>Outro_s_concorrente_s__c</errorDisplayField>
+    <errorMessage>Por favor, complete o campo Outro(s) concorrente(s).</errorMessage>
+</ValidationRule>

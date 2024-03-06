@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Formul_rio_preenchido__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Assinalar quando a empresa enviar o formulário de abertura de vagas preenchido</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Assinalar quando a empresa enviar o formulário de abertura de vagas preenchido</inlineHelpText>
+    <label>Formulário de abertura de vagas</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

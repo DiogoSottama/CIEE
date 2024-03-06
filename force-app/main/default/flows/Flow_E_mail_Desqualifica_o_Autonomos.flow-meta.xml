@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Email_Desqualif_ES</name>
+        <label>Email Desqualif ES</label>
+        <locationX>578</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>contrate@ciee.ong.br</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Agradecemos o seu contato</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailESFINAL1</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Email_Desqualif_MG</name>
+        <label>Email Desqualif MG</label>
+        <locationX>1634</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>contrate@ciee.ong.br</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Agradecemos o seu contato</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>TextoEmailMG3</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Email_Desqualif_PE</name>
+        <label>Email Desqualif PE</label>
+        <locationX>1370</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>contrate@ciee.ong.br</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Agradecemos o seu contato</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailPEFINAL1</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Email_Desqualif_PR</name>
+        <label>Email Desqualif PR</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>contrate@ciee.ong.br</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Agradecemos o seu contato</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailPRFINAL1</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Email_Desqualif_RJ</name>
+        <label>Email Desqualif RJ</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>contrate@ciee.ong.br</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Agradecemos o seu contato</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailRJFINAL1</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Email_Desqualif_RS</name>
+        <label>Email Desqualif RS</label>
+        <locationX>842</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>contrate@ciee.ong.br</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Agradecemos o seu contato</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailRSFINAL1</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Email_Desqualif_SC</name>
+        <label>Email Desqualif SC</label>
+        <locationX>1106</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>contrate@ciee.ong.br</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Agradecemos o seu contato</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailSCFINAL1</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <constants>
+        <name>OwnerIsabelly</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>true</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>Decis_o_Qual_Autonomo</name>
+        <label>Decisão Qual Autonomo</label>
+        <locationX>974</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Autonomo_PR</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Motivo_de_Desqualifica_o__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CIEE Autônomo PR</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Desqualif_PR</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Autonomo PR</label>
+        </rules>
+        <rules>
+            <name>Autonomo_RJ</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Motivo_de_Desqualifica_o__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CIEE Autônomo RJ</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Desqualif_RJ</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Autonomo RJ</label>
+        </rules>
+        <rules>
+            <name>Autonomo_ES</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Motivo_de_Desqualifica_o__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CIEE Autônomo ES</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Desqualif_ES</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Autonomo ES</label>
+        </rules>
+        <rules>
+            <name>Autonomo_RS</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Motivo_de_Desqualifica_o__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CIEE Autônomo RS</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Desqualif_RS</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Autonomo RS</label>
+        </rules>
+        <rules>
+            <name>Autonomo_SC</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Motivo_de_Desqualifica_o__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CIEE Autônomo SC</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Desqualif_SC</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Autonomo SC</label>
+        </rules>
+        <rules>
+            <name>Autonomo_PE</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Motivo_de_Desqualifica_o__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CIEE Autônomo PE</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Desqualif_PE</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Autonomo PE</label>
+        </rules>
+        <rules>
+            <name>Autonomo_MG</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Motivo_de_Desqualifica_o__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CIEE Autônomo MG</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Desqualif_MG</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Autonomo MG</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>OwnerIsabelly1</name>
+        <dataType>String</dataType>
+        <expression>{!OwnerIsabelly}</expression>
+    </formulas>
+    <interviewLabel>[Flow] E-mail Desqualificação Autonomos {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>[Flow] E-mail Desqualificação Autonomos</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>848</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Decis_o_Qual_Autonomo</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Motivo_de_Desqualifica_o__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CIEE Autônomo ES</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Motivo_de_Desqualifica_o__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CIEE Autônomo PE</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Motivo_de_Desqualifica_o__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CIEE Autônomo PR</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Motivo_de_Desqualifica_o__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CIEE Autônomo RJ</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Motivo_de_Desqualifica_o__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CIEE Autônomo RS</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Motivo_de_Desqualifica_o__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CIEE Autônomo SC</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Motivo_de_Desqualifica_o__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CIEE Autônomo MG</stringValue>
+            </value>
+        </filters>
+        <object>Lead</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>EmailES</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Espírito Santo. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do ES. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CIEE/ES - Sede Vitória/ ES:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Telefone: 27 3232-3200&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Endereço: AV. PRINCESA ISABEL, 629 2.ANDAR - CENTRO CEP: 29010-904&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;http://www.ciee-es.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(0, 51, 102); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;http://www.ciee-es.org.br/&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;E-mail: cieees@ciee-es.org.br&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailESFinal</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Espírito Santo. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do ES. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;CIEE/ES - Sede Vitória/ES:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Telefone: 27 3232-3200&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Endereço: AV. PRINCESA ISABEL, 629 2.ANDAR - CENTRO CEP: 29010-904&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;http://www.ciee-es.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(0, 128, 255); font-family: verdana; font-size: 11pt;&quot;&gt;http://www.ciee-es.org.br/&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 128, 255); font-family: verdana; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana;&quot;&gt;E-mail: &lt;/span&gt;&lt;a href=&quot;cieees@ciee-es.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(2, 123, 253); font-family: verdana; font-size: 14px;&quot;&gt;cieees@ciee-es.org.br&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: verdana; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailESFINAL1</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Espírito Santo. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do ES. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;CIEE/ES - Sede Vitória/ ES:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Telefone: 27 3232-3200&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Endereço: AV. PRINCESA ISABEL, 629 2.ANDAR - CENTRO CEP: 29010-904&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;http://www.ciee-es.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;http://www.ciee-es.org.br/&lt;/u&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;E-mail: &lt;/span&gt;&lt;a href=&quot;mailto:cieees@ciee-es.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(17, 85, 204); background-color: transparent; font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;cieees@ciee-es.org.br&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailMG</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;Olá CIEE Minas Gerais,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;Recebemos o contato do Sr(a). {!$Record.FirstName}, que demonstrou interesse em se cadastrar no CIEE, porém a empresa fica localizada em {!$Record.City} - {!$Record.State}. Poderiam verificar por gentileza ?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;Segue abaixo os dados coletados durante o atendimento:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;Nome:&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt; {!$Record.Name}&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;CNPJ:&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt; {!$Record.CNPJ_CPF__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;Empresa:&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt; {!$Record.Company}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;E-Mail:&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt; {!$Record.Email}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;Telefone:&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt; {!$Record.MobilePhone}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;Att,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;Enviar para: &lt;/span&gt;&lt;a href=&quot;{!$Record.Email}&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 11pt;&quot;&gt;{!$Record.Email}&lt;/a&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailPE</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado de Pernambuco. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do PE. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CIEEPE -Sede em Recife/PE:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;Rua do Progresso,465 7a S/705&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CEP: 50070-020&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;(81) 3131-6000&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Email: relacionamento@ciee-pe.org.br&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;http://www.ciee-pe.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&lt;u&gt;http://www.ciee-pe.org.br/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailPE_Header</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;img src=&quot;https://cieesp.file.force.com/sfc/servlet.shepherd/version/download/0684w00000RXYWQ?asPdf=false&amp;amp;operationContext=CHATTER&quot; alt=&quot;unnamed (6).png&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;Olá, {!$Record.FirstName}! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;Identificamos que a empresa fica localizada no estado de Pernambuco. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do PE. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 11pt; font-family: verdana; color: rgb(34, 34, 34); background-color: transparent;&quot;&gt;CIEEPE - Sede em Recife/PE:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(34, 34, 34); background-color: transparent;&quot;&gt;&amp;nbsp;Rua do Progresso,465 7a S/705&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(34, 34, 34); background-color: transparent;&quot;&gt;CEP: 50070-020&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(34, 34, 34); background-color: transparent;&quot;&gt;(81) 3131-6000&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(34, 34, 34); background-color: transparent;&quot;&gt;Email: relacionamento@ciee-pe.org.br&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(34, 34, 34); background-color: transparent;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;http://www.ciee-pe.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 11pt; font-family: verdana; color: rgb(17, 85, 204);&quot;&gt;&lt;u&gt;http://www.ciee-pe.org.br/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 11pt; font-family: verdana; color: rgb(34, 34, 34); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: verdana; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailPEFinal</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado de Pernambuco. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do PE. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CIEE/PE - Sede em Recife/PE:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Rua do Progresso,465 7a S/705&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CEP: 50070-020&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;(81) 3131-6000&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Email: &lt;/span&gt;&lt;a href=&quot;mailto:relacionamento@ciee-pe.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&lt;u&gt;relacionamento@ciee-pe.org.br&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;http://www.ciee-pe.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&lt;u&gt;http://www.ciee-pe.org.br/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailPEFINAL1</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Identificamos que a empresa fica localizada no estado de Pernambuco. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do PE. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;CIEE/PE - Sede em Recife/PE:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Rua do Progresso,465 7a S/705&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;CEP: 50070-020&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;(81) 3131-6000&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Email: &lt;/span&gt;&lt;a href=&quot;mailto:relacionamento@ciee-pe.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;relacionamento@ciee-pe.org.br&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;http://www.ciee-pe.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;http://www.ciee-pe.org.br/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailPR</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Paraná. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do PR. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CIEEPR - Sede CURITIBA/PR&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Telefone: (41) 3313-4300&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Endereço: RUA IVO LEAO 42 ALTO DA GLORIA - CEP: 80030-180&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;https://www.cieepr.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(0, 51, 102); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;https://www.cieepr.org.br/&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailPRFinal</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Paraná. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do PR. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: verdana; font-size: 11pt;&quot;&gt;CIEEPR - Sede CURITIBA/PR&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Telefone: (41) 3313-4300&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Endereço: RUA IVO LEAO 42 ALTO DA GLORIA - CEP: 80030-180&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;https://www.cieepr.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(0, 51, 102); font-family: verdana; font-size: 11pt;&quot;&gt;https://www.cieepr.org.br/&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: verdana; font-size: 11pt;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: verdana; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailPRFINAL1</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Paraná. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;​O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do PR. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;CIEEPR - Sede CURITIBA/PR&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Telefone: (41) 3313-4300&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Endereço: RUA IVO LEAO 42 ALTO DA GLORIA - CEP: 80030-180&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;https://www.cieepr.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;https://www.cieepr.org.br/&lt;/u&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailRJ</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Rio de Janeiro. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do RJ. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CIEERJ - Sede em Rio de Janeiro/RJ:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Rua da Constituição, 65/67 -&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Centro, Rio de Janeiro - RJ, 20060-010&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Telefone: (21)-3535.4300&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Email: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;apoio.capital6@cieerj.org.br&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailRJFinal</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Rio de Janeiro. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do RJ. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;CIEERJ - Sede em Rio de Janeiro/RJ:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Rua da Constituição, 65/67 -&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Centro, Rio de Janeiro - RJ, 20060-010&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Telefone: 21-3535.4300&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Email: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: verdana; font-size: 11pt;&quot;&gt;apoio.capital6@cieerj.org.br&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: verdana; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailRJFINAL1</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Rio de Janeiro. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do RJ. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;CIEERJ - Sede em Rio de Janeiro/RJ:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Rua da Constituição, 65/67 -&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Centro, Rio de Janeiro - RJ, 20060-010&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Telefone: 21-3535.4300&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Email: &lt;/span&gt;&lt;a href=&quot;mailto:apoio.capital6@cieerj.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;apoio.capital6@cieerj.org.br&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailRS</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Rio Grande do Sul. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;​&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do RS. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CIEERS -Sede Porto Alegre/RS&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Telefone: (51) 3363-1000&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Whatsapp: +55 51 99992-9255&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Endereço: RUA DOM PEDRO II, 861 - CEP: 90550-142&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Site: https://www.cieers.org.br/&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Email: sac@cieers.org.br&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailRSFinal</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Rio Grande do Sul. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;​&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do RS. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CIEE/RS -Sede Porto Alegre/RS&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Telefone: (51) 3363-1000&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;WhatsApp: +55 51 99992-9255&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Endereço: RUA DOM PEDRO II, 861 - CEP: 90550-142&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;https://www.cieers.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(0, 124, 255); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;https://www.cieers.org.br/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Email: &lt;/span&gt;&lt;a href=&quot;sac@cieers.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(0, 124, 255); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;sac@cieers.org.br&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailRSFINAL1</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Identificamos que a empresa fica localizada no estado do Rio Grande do Sul. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;​&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do RS. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;CIEERS -Sede Porto Alegre/RS&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Telefone: (51) 3363-1000&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Whatsapp: +55 51 99992-9255&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Endereço: RUA DOM PEDRO II, 861 - CEP: 90550-142&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;https://www.cieers.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;https://www.cieers.org.br/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Email: &lt;/span&gt;&lt;a href=&quot;mailto:sac@cieers.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;sac@cieers.org.br&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailSC</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado de Santa Catarina. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;​&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do SC. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CIEESC- Sede em Florianópolis/SC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Telefone: (48) 3216-1400&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Endereço: Rua Antônio Dib Mussi, 473 - Centro - Florianópolis/SC&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;https://cieesc.org.br/portal/#&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&lt;u&gt;https://cieesc.org.br/portal/#&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Email: florianopolis@cieesc.org.br&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailSCFinal</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Identificamos que a empresa fica localizada no estado de Santa Catarina. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;​&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do SC. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;CIEE/SC - Sede em Florianópolis/SC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Telefone: (48) 3216-1400&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Endereço: Rua Antônio Dib Mussi, 473 - Centro - Florianópolis/SC&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;https://cieesc.org.br/portal/#&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&lt;u&gt;https://cieesc.org.br/portal/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Email: &lt;/span&gt;&lt;a href=&quot;mailto:florianopolis@cieesc.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;&lt;u&gt;florianopolis@cieesc.org.br&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 11pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailSCFINAL1</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Espero que esteja bem!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Identificamos que a empresa fica localizada no estado de Santa Catarina. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;​&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a do SC. Cada unidade do CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Os dados da unidade do CIEE que poderá te auxiliar e dará todo o apoio necessário para a contratação dos estagiários/aprendizes encontram-se abaixo.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;CIEE/SC - Sede em Florianópolis/SC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Telefone: (48) 3216-1400&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Endereço: Rua Antônio Dib Mussi, 473 - Centro - Florianópolis/SC&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Site: &lt;/span&gt;&lt;a href=&quot;https://cieesc.org.br/portal/#&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;https://cieesc.org.br/portal/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(34, 34, 34); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Email: &lt;/span&gt;&lt;a href=&quot;mailto:florianopolis@cieesc.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;background-color: transparent; color: rgb(17, 85, 204); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;&lt;u&gt;florianopolis@cieesc.org.br&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Para outras dúvidas e esclarecimentos, conte conosco!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 12pt;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>TextoEmailMG</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Identificamos que a empresa fica localizada no estado de Minas Gerais. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a de MG. Cada unidade CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Os dados da unidade CIEE que poderá te auxiliar e dará todo o apoio necessário para contratação dos estagiários/aprendizes encontram-se abaixo:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;CIEE/MG - Sede em Belo Horizonte&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Rua Célio de Castro, 79&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Bairro Floresta - Belo Horizonte/MG&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Site: &lt;/strong&gt;&lt;a href=&quot;http://www.cieemg.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: verdana, sans-serif; color: rgb(0, 106, 255);&quot;&gt;http://www.cieemg.org.br/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;Telefone:&lt;/strong&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;(31)-3429-8100&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;E-mail:&lt;/strong&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;mailto:empresas@cieemg.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: verdana, sans-serif; color: rgb(0, 106, 255);&quot;&gt;empresas@cieemg.org.br&lt;/a&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>TextoEmailMG2</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Identificamos que a empresa fica localizada no estado de Minas Gerais. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a de MG. Cada unidade CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Os dados da unidade CIEE que poderá te auxiliar e dará todo o apoio necessário para contratação dos estagiários/aprendizes encontram-se abaixo:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;CIEE/MG - Sede em Belo Horizonte&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Rua Célio de Castro, 79&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Bairro Floresta - Belo Horizonte/MG&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Site: &lt;/strong&gt;&lt;a href=&quot;http://www.cieemg.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: verdana, sans-serif; color: rgb(0, 106, 255);&quot;&gt;http://www.cieemg.org.br/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Telefone:&lt;/strong&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;(31)-3429-8100&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;E-mail:&lt;/strong&gt;&lt;span style=&quot;font-family: verdana, sans-serif; color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;mailto:empresas@cieemg.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: verdana, sans-serif; color: rgb(0, 106, 255);&quot;&gt;empresas@cieemg.org.br&lt;/a&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>TextoEmailMG3</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;Olá! Tudo bem?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;Recebemos o seu contato e agradecemos o interesse na contratação e formação de novos talentos!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;Identificamos que a empresa fica localizada no estado de Minas Gerais. Neste caso, recomendamos que entre em contato com a unidade local do seu estado.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;O CIEE Nacional congrega 7 unidades CIEE estaduais autônomas, incluindo a de MG. Cada unidade CIEE autônoma possui autonomia administrativa, jurídica e financeira.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;Os dados da unidade CIEE que poderá te auxiliar e dará todo o apoio necessário para contratação dos estagiários/aprendizes encontram-se abaixo:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;CIEE/MG - Sede em Belo Horizonte&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;Rua Célio de Castro, 79&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;Bairro Floresta - Belo Horizonte/MG&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;Site:&amp;nbsp;&lt;/strong&gt;&lt;a href=&quot;http://www.cieemg.org.br/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(0, 106, 255); font-family: verdana, sans-serif;&quot;&gt;http://www.cieemg.org.br/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;Telefone:&lt;/strong&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;&amp;nbsp;(31)-3429-8100&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;E-mail:&lt;/strong&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana, sans-serif;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;mailto:empresas@cieemg.org.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(0, 106, 255); font-family: verdana, sans-serif;&quot;&gt;empresas@cieemg.org.br&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: verdana, sans-serif;&quot;&gt;Atenciosamente,&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

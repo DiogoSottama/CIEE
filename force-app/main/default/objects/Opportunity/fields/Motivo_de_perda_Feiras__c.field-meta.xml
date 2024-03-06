@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_de_perda_Feiras__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo de perda (Feiras)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aderência ao público</fullName>
+                <default>false</default>
+                <label>Aderência ao público</label>
+            </value>
+            <value>
+                <fullName>Calendário</fullName>
+                <default>false</default>
+                <label>Calendário</label>
+            </value>
+            <value>
+                <fullName>Orçamento</fullName>
+                <default>false</default>
+                <label>Orçamento</label>
+            </value>
+            <value>
+                <fullName>Outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Aderência ao público</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Calendário</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Orçamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fechado / Perdido</controllingFieldValue>
+            <valueName>Outros</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEP_obrigatorio</fullName>
+    <active>false</active>
+    <description>Torna do campo de CEP (PostalCode) obrigatório no preenchimento do registro de lead.</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(PostalCode)),
+NOT(REGEX(PostalCode, &quot;[0-9()-]+&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>PostalCode</errorDisplayField>
+    <errorMessage>Por favor preencher o CEP. Apenas números ou hífen.</errorMessage>
+</ValidationRule>

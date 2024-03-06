@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outros</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+ISPICKVAL(MotivoDaPerda__c , &quot;Outros&quot;),
+ISBLANK(Outros__c)))</errorConditionFormula>
+    <errorDisplayField>Outros__c</errorDisplayField>
+    <errorMessage>Ao escolher &quot;Outros&quot;, é obrigatório o preenchimento do campo.</errorMessage>
+</ValidationRule>

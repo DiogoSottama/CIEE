@@ -1,0 +1,3966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_de_Feiras</fullName>
+    <active>true</active>
+    <businessProcess>Processo de lead de Feiras</businessProcess>
+    <description>Usar para registrar leads de Feiras</description>
+    <label>Leads de Feiras</label>
+    <picklistValues>
+        <picklist>Ano__c</picklist>
+        <values>
+            <fullName>2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CIEE_Saude__c</picklist>
+        <values>
+            <fullName>Enviou apresentação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não demonstrou interesse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CNAE_Divisao__c</picklist>
+        <values>
+            <fullName>01 AGRICULTURA PECUÁRIA E SERVIÇOS RELACIONADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 PRODUÇÃO FLORESTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 PESCA E AQÜICULTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05 EXTRAÇÃO DE CARVÃO MINERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 EXTRAÇÃO DE PETRÓLEO E GÁS NATURAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 EXTRAÇÃO DE MINERAIS METÁLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08 EXTRAÇÃO DE MINERAIS NÃO-METÁLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09 ATIVIDADES DE APOIO À EXTRAÇÃO DE MINERAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 FABRICAÇÃO DE BEBIDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 FABRICAÇÃO DE PRODUTOS DO FUMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13 FABRICAÇÃO DE PRODUTOS TÊXTEIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14 CONFECÇÃO DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 PREPARAÇÃO DE COUROS E FABRICAÇÃO DE ARTEFATOS DE COURO ARTIGOS PARA VIAGEM E CALÇADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16 FABRICAÇÃO DE PRODUTOS DE MADEIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17 FABRICAÇÃO DE CELULOSE PAPEL E PRODUTOS DE PAPEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18 IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19 FABRICAÇÃO DE COQUE DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 FABRICAÇÃO DE PRODUTOS QUÍMICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21 FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22 FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>23 FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO-METÁLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24 METALURGIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25 FABRICAÇÃO DE PRODUTOS DE METAL EXCETO MÁQUINAS E EQUIPAMENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>26 FABRICAÇÃO DE EQUIPAMENTOS DE INFORMÁTICA PRODUTOS ELETRÔNICOS E ÓPTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>27 FABRICAÇÃO DE MÁQUINAS APARELHOS E MATERIAIS ELÉTRICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>28 FABRICAÇÃO DE MÁQUINAS E EQUIPAMENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>29 FABRICAÇÃO DE VEÍCULOS AUTOMOTORES REBOQUES E CARROCERIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 FABRICAÇÃO DE OUTROS EQUIPAMENTOS DE TRANSPORTE EXCETO VEÍCULOS AUTOMOTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31 FABRICAÇÃO DE MÓVEIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>32 FABRICAÇÃO DE PRODUTOS DIVERSOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>33 MANUTENÇÃO REPARAÇÃO E INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35 ELETRICIDADE GÁS E OUTRAS UTILIDADES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36 CAPTAÇÃO TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>37 ESGOTO E ATIVIDADES RELACIONADAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>38 COLETA TRATAMENTO E DISPOSIÇÃO DE RESÍDUOS RECUPERAÇÃO DE MATERIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>39 DESCONTAMINAÇÃO E OUTROS SERVIÇOS DE GESTÃO DE RESÍDUOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>41 CONSTRUÇÃO DE EDIFÍCIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>42 OBRAS DE INFRA-ESTRUTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>43 SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45 COMÉRCIO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>46 COMÉRCIO POR ATACADO EXCETO VEÍCULOS AUTOMOTORES E MOTOCICLETAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>47 COMÉRCIO VAREJISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>49 TRANSPORTE TERRESTRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50 TRANSPORTE AQUAVIÁRIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>51 TRANSPORTE AÉREO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>52 ARMAZENAMENTO E ATIVIDADES AUXILIARES DOS TRANSPORTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>53 CORREIO E OUTRAS ATIVIDADES DE ENTREGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>55 ALOJAMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>56 ALIMENTAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>58 EDIÇÃO E EDIÇÃO INTEGRADA À IMPRESSÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>59 ATIVIDADES CINEMATOGRÁFICAS PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO GRAVAÇÃO DE SOM E EDIÇÃO DE MÚSICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60 ATIVIDADES DE RÁDIO E DE TELEVISÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>61 TELECOMUNICAÇÕES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>62 ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>63 ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>64 ATIVIDADES DE SERVIÇOS FINANCEIROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>65 SEGUROS RESSEGUROS PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>66 ATIVIDADES AUXILIARES DOS SERVIÇOS FINANCEIROS SEGUROS PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>68 ATIVIDADES IMOBILIÁRIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>69 ATIVIDADES JURÍDICAS DE CONTABILIDADE E DE AUDITORIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>70 ATIVIDADES DE SEDES DE EMPRESAS E DE CONSULTORIA EM GESTÃO EMPRESARIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>71 SERVIÇOS DE ARQUITETURA E ENGENHARIA TESTES E ANÁLISES TÉCNICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>72 PESQUISA E DESENVOLVIMENTO CIENTÍFICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>73 PUBLICIDADE E PESQUISA DE MERCADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>74 OUTRAS ATIVIDADES PROFISSIONAIS CIENTÍFICAS E TÉCNICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75 ATIVIDADES VETERINÁRIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>77 ALUGUÉIS NÃO-IMOBILIÁRIOS E GESTÃO DE ATIVOS INTANGÍVEIS NÃO-FINANCEIROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>78 SELEÇÃO AGENCIAMENTO E LOCAÇÃO DE MÃO-DE-OBRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>79 AGÊNCIAS DE VIAGENS OPERADORES TURÍSTICOS E SERVIÇOS DE RESERVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>80 ATIVIDADES DE VIGILÂNCIA SEGURANÇA E INVESTIGAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>81 SERVIÇOS PARA EDIFÍCIOS E ATIVIDADES PAISAGÍSTICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82 SERVIÇOS DE ESCRITÓRIO DE APOIO ADMINISTRATIVO E OUTROS SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>84 ADMINISTRAÇÃO PÚBLICA DEFESA E SEGURIDADE SOCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>85 EDUCAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>86 ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>87 ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA INTEGRADAS COM ASSISTÊNCIA SOCIAL PRESTADAS EM RESIDÊNCIAS COLETIVAS E PARTICULARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>88 SERVIÇOS DE ASSISTÊNCIA SOCIAL SEM ALOJAMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90 ATIVIDADES ARTÍSTICAS CRIATIVAS E DE ESPETÁCULOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>91 ATIVIDADES LIGADAS AO PATRIMÔNIO CULTURAL E AMBIENTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>92 ATIVIDADES DE EXPLORAÇÃO DE JOGOS DE AZAR E APOSTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>93 ATIVIDADES ESPORTIVAS E DE RECREAÇÃO E LAZER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>94 ATIVIDADES DE ORGANIZAÇÕES ASSOCIATIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>95 REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>96 OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>97 SERVIÇOS DOMÉSTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99 ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inapto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CNAE__c</picklist>
+        <values>
+            <fullName>01%2E%2E03 AGRICULTURA PECUÁRIA PRODUÇÃO FLORESTAL PESCA E AQÜICULTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05%2E%2E09 INDÚSTRIAS EXTRATIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E%2E33 INDÚSTRIAS DE TRANSFORMAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35%2E%2E35 ELETRICIDADE E GÁS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36%2E%2E39 ÁGUA ESGOTO ATIVIDADES DE GESTÃO DE RESÍDUOS E DESCONTAMINAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>41%2E%2E43 CONSTRUÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45%2E%2E47 COMÉRCIO REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>49%2E%2E53 TRANSPORTE ARMAZENAGEM E CORREIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>55%2E%2E56 ALOJAMENTO E ALIMENTAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>58%2E%2E63 INFORMAÇÃO E COMUNICAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>64%2E%2E66 ATIVIDADES FINANCEIRAS DE SEGUROS E SERVIÇOS RELACIONADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>68%2E%2E68 ATIVIDADES IMOBILIÁRIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>69%2E%2E75 ATIVIDADES PROFISSIONAIS CIENTÍFICAS E TÉCNICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>77%2E%2E82 ATIVIDADES ADMINISTRATIVAS E SERVIÇOS COMPLEMENTARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>84%2E%2E84 ADMINISTRAÇÃO PÚBLICA DEFESA E SEGURIDADE SOCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>85%2E%2E85 EDUCAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>86%2E%2E88 SAÚDE HUMANA E SERVIÇOS SOCIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90%2E%2E93 ARTES CULTURA ESPORTE E RECREAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>94%2E%2E96 OUTRAS ATIVIDADES DE SERVIÇOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>97%2E%2E97 SERVIÇOS DOMÉSTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99%2E%2E99 ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inapto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cargo__c</picklist>
+        <values>
+            <fullName>Analista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auxiliar %2F Assistente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEO%2FCFO%2FCMO%2FPresidente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coordenador %2F Supervisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diretor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gerente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Líder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proprietário %2F Sócio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VP%2FSuperintendente</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cidade_Expo_CIEE__c</picklist>
+        <values>
+            <fullName>Ceará</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goiás</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Híbrido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sorocaba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São José dos Campos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São Paulo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Como_conheceu_o_CIEE__c</picklist>
+        <values>
+            <fullName>Anúncio na internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Busca na internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEPAC Barueri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elevador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ex-Estagiário%2FAprendiz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicação de contador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicação entre empresas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MP Educacional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OAB%2FMT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRONTZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMESPI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Como_ficou_sabendo_da_Expo_CIEE__c</picklist>
+        <values>
+            <fullName>Amigos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jornal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Na sua empresa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Televisão</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Consultor_a_OLD__c</picklist>
+        <values>
+            <fullName>Allan Fernando de Melo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Almiro Gomes Santana Neto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amanda Oliveira Santana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amanda Pires dos Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Carla Sales de A Gomes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Carolina Godoi Bueno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Cristina Dancona Mollina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Jessica Bento Pereira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Larissa de F P Marques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Paula Melo da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andre Ardito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andre Felipe Ruiz Rua Amancio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Angela Maria Jassi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Any Miyuki Baria Morimitsu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benedito Raimundo Neto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bruno Luiz E de Souza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bruno Nascimento dos Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bruno Possebom Correia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camila Machado de Souza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carina de Aguiar Coimbra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carlos Alberto A de S Junior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carlos Roberto B Cardoso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cassio Eduardo Vaz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cintia de Souza Dourado Alves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cladine de Souza Fernandes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claudney Gotardo Lasclota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clea Zuleica da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cristiane de Paula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniel Carneiro Alves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniela Brito da Fonseca Conti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniela Diniz Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danielle Barbosa de S Bezerra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danielle Teles Nincao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debora Aparecida R A Bastos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deise Cristina Bonato Granato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denys Lucio da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diego Jose David Comeron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edson de Lima Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eliana de Almeida Sonego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eliane Nunes Sousa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eliezer Ricardo do Nascimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elisangela Maria de Melo Brito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eriane Marson Pivatto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erika de Souza Guimaraes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabiana Lessa Molica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabiola Aparecida Molina Costa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabricio Ramos dos Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fernanda Dringoli Bruno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gisele Maria Nogueira Amorim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gustavo Solder Basso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Helena Beatriz Simao Alexandre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hudson de Sousa Ribeiro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iara Cristina da S Oliveira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jiomar dos Santos Souza Filho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joao Batista de Macedo Alves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joao Victor Camelo X Novais</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jocyenne Arruda O Tocantins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jucie Cardoso da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Julia Afonso Franco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Juliana Cristina Rodrigues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Julianne Alves Xerez</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kathia Tatiane L Nascimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelly Nubia Pereira da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Khedma Rodrigues Valenca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Layanne Patricia M Ferreira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leticia Figueiredo Brito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luceli Martins Santana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luciana Gomes da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luciana Pina de Souza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luiz Gustavo Migotti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maira Costa Lopes de Sa Leitao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manuela Carreiro B%2E Pinto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcela Ferreira Leme do Prado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcele Mendes dos S Vieira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcelle Flavia Furtado Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcelle Prado Teixeira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcia Andrea F%2E dos Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcia Karina S F de Sousa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcia Lima Veras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcos Faria de O%2E Martins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Margarete Hernandes Vantilino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maria Gabriella M O de Alencar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marilia Leonarda C Gomes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina Metidieri Melo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mauricio Almeida Coppola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayara Talita de Souza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melany Azzem Biral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melina Padilha Velasco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michael Chagas Evangelista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michelli Cristina de Paula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monaliza Lopes Silva Machado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monique Silva Damasceno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Naiara da Silva Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nairana Sian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patricia Silva de Jesus Rocha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paulo Victor Vieira de Araujo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedro Gongora Guerini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedro Henrique de Campos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priscila Maia Franco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rafael Castro dos Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ralinne Rodrigues Rocha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renata Bueno de C%2E Ramazotti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renata Goncalves C Fraiolli</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roberta Marcilio Evangelista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ronaldo Ferramola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rosineide Dias Martins Vieira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rute Helena Alves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samile Silva Gomes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandra Mara Paschoal Sanches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silvia Kazue Ando da Costa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simone Vieira de Souza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simony Marques de Lira Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzane Macedo Mendes Martins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzy Christiany O S Paiva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taila Saraiva Rodrigues Franca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Talita Aline Mota da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thalyta Maressa R Tiarga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thiago Andrade Costa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thiago Pereira Ribeiro Tredici</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thiago Rogerio Cintra da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vagner Rigueira de Freitas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valdirene V Pires de Oliveira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valeria Aparecida M Carvalho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanderleia Ronconi Rezende</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vivian Oliveira Ferreira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viviane Aparecida Pereira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viviane Cristhina G V Pereira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viviane Mazon Cerralbo Ortiz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vivien Alineri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walessa Carvalho de Medeiros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wenes Neto da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wesley Chagas Teixeira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>William Lima de Carvalho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yanno Soares de M Macedo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Consultor_a__c</picklist>
+        <values>
+            <fullName>153</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adolfo Negre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alex Sandro C Da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aline Jennifer dos Santos Melo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allan FERNANDO DE MELO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allyson FRANKLIN ALVES MENDES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Almiro Neto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amanda Oliveira Santana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amanda PIRES DOS SANTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana CARLA SALES DE A GOMES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana CRISTINA DANCONA MOLLINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Carolina Godoi Bueno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Jessica Bento Pereira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Larissa de F P Marques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana PAULA MELO SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Paula Alves da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ana Paula Araujo Taveira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andre Ardito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andrea Cruz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andreia Luzia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antonia Samila Farias Lopes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Any MIUKY BARIA MORIMITSU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benedito RAIMUNDO NETO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bruno LUIZ EVANGELISTA DE SOUZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bruno NASCIMENTO DOS SANTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bruno POSSEBOM CORREIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camila MACHADO DE SOUZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carina AGUIAR COIMBRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carlos ALBERTO ARRUDA DE SOUZA JUNIOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carlos ROBERTO BERNARDES CARDOSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cassio Eduardo Vaz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cintia CAROLINE DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cintia de Souza Dourado Alves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cladine DE SOUZA FERNANDES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claudney GOTARDO LASCLOTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clea ZULEICA DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cleber Galhardo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cledson MATIAS DE OLIVEIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cristiane DE PAULA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniel CARNEIRO ALVES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniela Fonseca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniela SALES DINIZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danielle Barbosa de S Bezerra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danielle Teles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danilo Joe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debora APARECIDA REZENDE ALMEIDA BASTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deise CRISTINA BONATO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denys LUCIO DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denívia RODRIGUES SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diego JOSE DAVI COMERON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Douglas Santos Fraga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edson de Lima Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eliana DE ALMEIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eliane NUNES SOUSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eliezer RICARDO DO NASCIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elisangela MARIA DE MELO BRITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eloi Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eriane MARSON PIVATTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erika DE SOUZA GUIMARAES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabiana Bauab Velardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabiana LESSA MOLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabiana Maria F%2E Nobre Porto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabiane RODRIGUES RIBEIRO DE PAIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabiola APARECIDA MALAGUTTI MOLINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabricio RAMOS DOS SANTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabricio da Silva Pereira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fernanda DRINGOLI BRUNO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fernando Paim Neto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flavia Silva Benetti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franklim De Jesus Nunes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gabriele Guimarães Ferreira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gisele Amorim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glayce Lima Oliveira Pego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guilherme De Almeida Rosa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gustavo SOLDER BASSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Helena Beatriz Simao Alexandre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hudson DE SOUSA RIBEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ianequele Souza Da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iara Oliveira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaê Iandara Moraes de Andrade Huppes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ismael ANGELO DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Janis Suelen Vieira Costa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jiomar dos Santos Souza Filho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jocyenne Arruda O Tocantins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jorge AUGUSTO SAMPAIO CUNHA JUNIOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jose Arnaldo Teixeira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joycelene RAYNER FERREIRA DE SOUZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>João BATISTA DE MACEDO ALVES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>João VICTOR CAMELO XAVIER NOVAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jucie CARDOSO DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Julia Afonso Franco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Juliana CRISTINA RODRIGUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Julianne ALVES XEREZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Júlia Graciela da Silva Soares</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Karine de França C do Rego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kathia TATIANE LOPES NASCIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelly NUBIA PEREIRA DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Khedma RODRIGUES V CAVALCANTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laura Martins dos Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Layane PATRICIA MONTEIRO FERREIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Layeny Rossi de Souza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leidiane Brandao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leonardo Abreu Carvalho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leticia BRITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leticia Vieira De Figueiredo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lilian Alencar Do Nascimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luceli Martins Santana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luciana GOMES DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luciana PINA DE SOUZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luciana SALGUEIRO BRAGIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luiz Andrade Oliveira da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luiz GUSTAVO MIGOTTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maira Costa Lopes de Sa Leitao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maiza FLORES DO NASCIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manuela CARREIRO BERNARDINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcela FERREIRA LEME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcele MENDES DOS S%2E VIEIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcelle FLAVIA FURTADO S%2E DE HOLANDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcelle Prado Teixeira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcelo Felix Araujo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcelo Vuckovic Paschoal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcia ANDREA FERREIRA DOS SANTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcia KARINA S F DE SOUSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcia Lima Veras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcos Faria de O%2E Martins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Margarete HERNANDES VANTILINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maria Gabriella M O de Alencar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maria Jose L De O Neta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mariangeli Pereira Martinelli da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina METIDIERI MELO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marília LEONARDA CAVALCANTE GOMES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mateus Rubiano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mauricio Almeida Coppola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Max Ricardo Meneses Sousa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayara TALITA DE SOUZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melany AZZEM BIRAL TACITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melina PADILHA VELASCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michael Chagas Evangelista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michel Moreira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michel Moreira Ihida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michelli Cristina de Paula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milena LIMA BATISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monalisa Magalhaes Araujo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monaliza LOPES SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monique SILVA DAMASCENO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mônica Marcele de Oliveira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mônica Shizue Muraichi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Naiara DA SILVA SANTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nairana Sian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nilberg dos Santos Alcantara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Olimpia C R M DA S DOS SANTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patricia SILVA DE JESUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paulo Victor Vieira de Araujo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedro GONGORA GUERINI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedro Henrique de Campos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priscila MAIA FRANCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priscila Marques do Amaral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pâmela Cristina do Prado Barbosa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rafael CASTRO DOS SANTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ralline RODRIGUES ROCHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ramon Dos Santos Barbosa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raphael Raro Pina Tagliabui</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raphaele Fernandes C Barcelos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renata BUENO DE CAMARGO RAMAZOTTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renata GONÇALVES CARDOSO FRAIOLLI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renato Malta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roberta Marcilio Evangelista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ronaldo Ferramola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rosineide DIAS MARTINS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rute Helena Alves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salvio André Dias de Farias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samile SILVA GOMES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandra MARA SANCHES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silvia Costa Kazue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simone Estruque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simone Lopes Da Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simone VIEIRA DE SOUZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simony MARQUES DE LIRA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stefanie de Melo Estevam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzane Macedo Mendes Martins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzy Christiany O S Paiva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taila Saraiva Rodrigues França</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taina Martins Araujo Joao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taina Monico Lins Araújo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Talita ALINE MOTA DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thalyta MARESSA RODRIGUES TIARGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thiago ANDRADE COSTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thiago ROGERIO CINTRA DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiago De Sousa Silva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ulisses de Carvalho Gama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vagner Rigueira De Freitas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valdir Martins Filho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valdirene VASCONCELOS PIRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanderleia RONCONI REZENDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vitor Gimenes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vivian OLIVEIRA FERREIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viviane APARECIDA PEREIRA LEONARDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viviane Aparecida Pereira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viviane MAZON CERRALBO ORTIZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viviane Nogueira de C%2E Esteves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viviane Venaglia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vivien Alineri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walessa Carvalho de Medeiros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wanderson Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wenes NETO DA SILVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wesley Chagas Teixeira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>William LIMA DE CARVALHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winicius RONDINELLY COSTA FRANCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yanno SOARES DE M MACEDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yvina Lima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ângela Maria Jassi</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gerencia_Regional1__c</picklist>
+        <values>
+            <fullName>CIEE Autônomo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR Centro Oeste e DF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR Grande São Paulo e Capital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR Nordeste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR Norte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR SP Interior e BH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gerencia_Regional__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agricultura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotecnologia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comunicação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construção</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eletronicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finanças</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Governamental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitalar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mídia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecnologia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecomunicação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transporte</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>InteressePrincipal__c</picklist>
+        <values>
+            <fullName>CIEE eSports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ExpoCIEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Festival CIEE da Diversidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hackathon</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Expositor Expo CIEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicação externa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicação interna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecção ativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales_navigator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>migracao_kairos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_Unidade__c</picklist>
+        <values>
+            <fullName>Empresa ativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empresa inativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de retorno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negociação estratégica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parceria com outro CNPJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pré-cadastro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visita presencial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_de_Desqualifica_o_Feiras__c</picklist>
+        <values>
+            <fullName>Aderência do público</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calendário</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orçamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teste</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_de_Desqualifica_o__c</picklist>
+        <values>
+            <fullName>Aderência do público</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atividades incompatíveis para Estágio e%2Fou Aprendizagem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atraso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo MG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo PE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo RJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo RS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calendário</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concorrente Modelo de Atendimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concorrente Preço</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estudante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experiência na Expo 2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead duplicado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Momento inoportuno para empresa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orçamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serviço gratuito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tentativas excedidas de contato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teste</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Sr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sra%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ramo__c</picklist>
+        <values>
+            <fullName>Alimentação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coleta de Lixo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comércio e Varejo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funerário</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imprensa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logística</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produção</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saúde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Segurança</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecnologia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecomunicação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Água</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segmento__c</picklist>
+        <values>
+            <fullName>Agricultura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finanças</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecnologia</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo__c</picklist>
+        <values>
+            <fullName>Empresa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instituição de ensino</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_da_Empresa1__c</picklist>
+        <values>
+            <fullName>Economia Mista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Privada</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pública</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_da_Empresa__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMDCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instituição de Ensino</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unidade_CIEE__c</picklist>
+        <values>
+            <fullName>Aracaju</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barueri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bauru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belém</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boa Vista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brasília</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campinas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campo Grande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuiabá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fortaleza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goiânia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guarulhos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inclusão Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>João Pessoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jundiaí</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macapá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maceió</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manaus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marília</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mogi Guaçu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palmas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piracicaba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Porto Velho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presidente Prudente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ribeirão Preto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rio Branco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salvador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sobral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sorocaba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São Caetano do Sul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São José do Rio Preto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São José dos Campos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São Luís</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São Paulo Capital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taubaté</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teresina</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unidades_de_Atendimento__c</picklist>
+        <values>
+            <fullName>101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>103</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>111</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>112</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>116</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>121</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1301</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>131</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1402</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>141</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1411</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1501</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>151</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>152</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1601</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>161</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1701</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1801</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>213</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2301</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2402</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2403</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2405</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2406</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2407</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2408</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2409</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2410</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2411</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2412</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2430</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2501</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2601</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>301</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>302</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>311</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>321</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administração Pública DF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agronegocio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazonas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Nacional de Licitações</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distrito Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inclusão Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mato Grosso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mato Grosso do Sul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Para</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rondonia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roraima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tocantins</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>et4ae5__Mobile_Country_Code__c</picklist>
+        <values>
+            <fullName>AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>UY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZW</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>outrosInteresses__c</picklist>
+        <values>
+            <fullName>Aprendiz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estágio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estágio e Aprendiz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inclui</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>rea__c</picklist>
+        <values>
+            <fullName>Administrativo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comunicação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diversidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financeiro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jurídico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operações</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secretariado%2FRecepção</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

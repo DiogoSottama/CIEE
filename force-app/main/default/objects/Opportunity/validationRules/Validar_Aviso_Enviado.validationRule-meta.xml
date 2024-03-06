@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Aviso_Enviado</fullName>
+    <active>true</active>
+    <description>Essa regra torna o campo &quot;Aviso enviado?&quot; obrigatório, quando uma oportunidade de Aprendiz estiver nas fases Contrato DocuSign ou Fechada/Ganha</description>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+RecordType.Name = &quot;Oportunidades de Atendimento&quot;,
+TEXT(Produto_Servico__c)=&apos;Aprendiz&apos;,
+				OR(
+        ISPICKVAL(Modalidade_da_contrata_o__c, &quot;EAD - Opção II (Economia 4.0)&quot;),
+        ISPICKVAL(Modalidade_da_contrata_o__c, &quot;EAD - Opção III (Atividade fim)&quot;)
+				),
+				OR(
+        TEXT(StageName) = &quot;Contrato DocuSign&quot;,
+        TEXT(StageName) = &quot;Fechado / Ganho&quot;
+    ),
+Aviso_enviado__c = FALSE
+))</errorConditionFormula>
+    <errorDisplayField>Aviso_enviado__c</errorDisplayField>
+    <errorMessage>Indicar se o aviso sobre cadastro dos dados no portal do Governo para empresa foi enviado.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Decisor</fullName>
+    <active>true</active>
+    <description>Validar se os contatos do prospect são os contatos do responsável/decisor antes de qualificar o prospect.</description>
+    <errorConditionFormula>AND(
+RecordType.Name = &quot;Prospects do Atendimento&quot;,
+TEXT(Status_do_prospect__c) = &quot;Qualificado&quot;,
+Responsavel_Decisor__c = FALSE)</errorConditionFormula>
+    <errorDisplayField>Responsavel_Decisor__c</errorDisplayField>
+    <errorMessage>Indique se os contatos preenchidos são os contatos do responsável/decisor.</errorMessage>
+</ValidationRule>

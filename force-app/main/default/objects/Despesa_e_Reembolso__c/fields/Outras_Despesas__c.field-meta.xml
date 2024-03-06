@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outras_Despesas__c</fullName>
+    <externalId>false</externalId>
+    <label>Outras Despesas</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Tipo_de_Despesa__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Refeição</fullName>
+                <default>false</default>
+                <label>Refeição</label>
+            </value>
+            <value>
+                <fullName>Estacionamento</fullName>
+                <default>false</default>
+                <label>Estacionamento</label>
+            </value>
+            <value>
+                <fullName>Pedágio</fullName>
+                <default>false</default>
+                <label>Pedágio</label>
+            </value>
+            <value>
+                <fullName>Táxi</fullName>
+                <default>false</default>
+                <label>Táxi</label>
+            </value>
+            <value>
+                <fullName>Passagem</fullName>
+                <default>false</default>
+                <label>Passagem</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

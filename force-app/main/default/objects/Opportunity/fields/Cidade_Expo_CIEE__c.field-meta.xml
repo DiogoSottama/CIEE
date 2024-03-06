@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cidade_Expo_CIEE__c</fullName>
+    <externalId>false</externalId>
+    <label>Edição</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>São Paulo</fullName>
+                <default>false</default>
+                <label>São Paulo</label>
+            </value>
+            <value>
+                <fullName>Sorocaba</fullName>
+                <default>false</default>
+                <label>Sorocaba</label>
+            </value>
+            <value>
+                <fullName>São José dos Campos</fullName>
+                <default>false</default>
+                <label>São José dos Campos</label>
+            </value>
+            <value>
+                <fullName>Goiás</fullName>
+                <default>false</default>
+                <label>Goiás</label>
+            </value>
+            <value>
+                <fullName>Ceará</fullName>
+                <default>false</default>
+                <label>Ceará</label>
+            </value>
+            <value>
+                <fullName>Virtual</fullName>
+                <default>false</default>
+                <label>Virtual</label>
+            </value>
+            <value>
+                <fullName>Híbrido</fullName>
+                <default>false</default>
+                <label>Híbrido</label>
+            </value>
+            <value>
+                <fullName>Belém</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Belém</label>
+            </value>
+            <value>
+                <fullName>Presencial</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Presencial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

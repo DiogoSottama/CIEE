@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trabalha_com_algum_concorrente__c</fullName>
+    <description>Lista de concorrente baseada no mapeamento da concorrência (feito pela SUNAT) e nos concorrentes mais citados entre os leads.</description>
+    <externalId>false</externalId>
+    <label>Trabalha com algum concorrente?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>99jobs</fullName>
+                <default>false</default>
+                <label>99jobs</label>
+            </value>
+            <value>
+                <fullName>Across</fullName>
+                <default>false</default>
+                <label>Across</label>
+            </value>
+            <value>
+                <fullName>Agiel</fullName>
+                <default>false</default>
+                <label>Agiel</label>
+            </value>
+            <value>
+                <fullName>Anima Recursos Humanos</fullName>
+                <default>false</default>
+                <label>Anima Recursos Humanos</label>
+            </value>
+            <value>
+                <fullName>ASH TALENTOS</fullName>
+                <default>false</default>
+                <label>ASH TALENTOS</label>
+            </value>
+            <value>
+                <fullName>Catho</fullName>
+                <default>false</default>
+                <label>Catho</label>
+            </value>
+            <value>
+                <fullName>Cia de Talentos</fullName>
+                <default>false</default>
+                <label>Cia de Talentos</label>
+            </value>
+            <value>
+                <fullName>Companhia de Estágios</fullName>
+                <default>false</default>
+                <label>Companhia de Estágios</label>
+            </value>
+            <value>
+                <fullName>Espro</fullName>
+                <default>false</default>
+                <label>Espro</label>
+            </value>
+            <value>
+                <fullName>Estagilize</fullName>
+                <default>false</default>
+                <label>Estagilize</label>
+            </value>
+            <value>
+                <fullName>Eureca</fullName>
+                <default>false</default>
+                <label>Eureca</label>
+            </value>
+            <value>
+                <fullName>Gelre</fullName>
+                <default>false</default>
+                <label>Gelre</label>
+            </value>
+            <value>
+                <fullName>IEL</fullName>
+                <default>false</default>
+                <label>IEL</label>
+            </value>
+            <value>
+                <fullName>Instituição de ensino</fullName>
+                <default>false</default>
+                <label>Instituição de ensino</label>
+            </value>
+            <value>
+                <fullName>Instituto Via de Acesso</fullName>
+                <default>false</default>
+                <label>Instituto Via de Acesso</label>
+            </value>
+            <value>
+                <fullName>IPP - Instituto Profissionalizante Paulista</fullName>
+                <default>false</default>
+                <label>IPP - Instituto Profissionalizante Paulista</label>
+            </value>
+            <value>
+                <fullName>ISBET</fullName>
+                <default>false</default>
+                <label>ISBET</label>
+            </value>
+            <value>
+                <fullName>Newik</fullName>
+                <default>false</default>
+                <label>Newik</label>
+            </value>
+            <value>
+                <fullName>Nube</fullName>
+                <default>false</default>
+                <label>Nube</label>
+            </value>
+            <value>
+                <fullName>PROE Estágios</fullName>
+                <default>false</default>
+                <label>PROE Estágios</label>
+            </value>
+            <value>
+                <fullName>Rede Cidadã</fullName>
+                <default>false</default>
+                <label>Rede Cidadã</label>
+            </value>
+            <value>
+                <fullName>Renapsi</fullName>
+                <default>false</default>
+                <label>Renapsi</label>
+            </value>
+            <value>
+                <fullName>Senac</fullName>
+                <default>false</default>
+                <label>Senac</label>
+            </value>
+            <value>
+                <fullName>SENAI</fullName>
+                <default>false</default>
+                <label>SENAI</label>
+            </value>
+            <value>
+                <fullName>Super Estágios</fullName>
+                <default>false</default>
+                <label>Super Estágios</label>
+            </value>
+            <value>
+                <fullName>Universia Brasil (Santander)</fullName>
+                <default>false</default>
+                <label>Universia Brasil (Santander)</label>
+            </value>
+            <value>
+                <fullName>WallJobs</fullName>
+                <default>false</default>
+                <label>WallJobs</label>
+            </value>
+            <value>
+                <fullName>Zuna</fullName>
+                <default>false</default>
+                <label>Zuna</label>
+            </value>
+            <value>
+                <fullName>Outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

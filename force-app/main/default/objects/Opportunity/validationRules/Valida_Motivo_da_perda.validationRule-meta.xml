@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Motivo_da_perda</fullName>
+    <active>true</active>
+    <description>Essa regra torna o campo Motivo de perda obrigatório quando a oportunidade for Fechada/Perdida.</description>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+ISPICKVAL(StageName,&apos;Fechado / Perdido&apos;),
+ISPICKVAL(MotivoDaPerda__c,&apos;&apos;)
+))</errorConditionFormula>
+    <errorDisplayField>MotivoDaPerda__c</errorDisplayField>
+    <errorMessage>Você precisa indicar um motivo sempre que a oportunidade for perdida.</errorMessage>
+</ValidationRule>

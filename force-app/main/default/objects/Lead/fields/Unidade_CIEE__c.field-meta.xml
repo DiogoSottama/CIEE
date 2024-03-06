@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unidade_CIEE__c</fullName>
+    <externalId>false</externalId>
+    <label>Unidade de Atendimento1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aracaju</fullName>
+                <default>false</default>
+                <label>Aracaju</label>
+            </value>
+            <value>
+                <fullName>Barueri</fullName>
+                <default>false</default>
+                <label>Barueri</label>
+            </value>
+            <value>
+                <fullName>Bauru</fullName>
+                <default>false</default>
+                <label>Bauru</label>
+            </value>
+            <value>
+                <fullName>Belém</fullName>
+                <default>false</default>
+                <label>Belém</label>
+            </value>
+            <value>
+                <fullName>Brasília</fullName>
+                <default>false</default>
+                <label>Brasília</label>
+            </value>
+            <value>
+                <fullName>Campinas</fullName>
+                <default>false</default>
+                <label>Campinas</label>
+            </value>
+            <value>
+                <fullName>Campo Grande</fullName>
+                <default>false</default>
+                <label>Campo Grande</label>
+            </value>
+            <value>
+                <fullName>Cuiabá</fullName>
+                <default>false</default>
+                <label>Cuiabá</label>
+            </value>
+            <value>
+                <fullName>Fortaleza</fullName>
+                <default>false</default>
+                <label>Fortaleza</label>
+            </value>
+            <value>
+                <fullName>Goiânia</fullName>
+                <default>false</default>
+                <label>Goiânia</label>
+            </value>
+            <value>
+                <fullName>Guarulhos</fullName>
+                <default>false</default>
+                <label>Guarulhos</label>
+            </value>
+            <value>
+                <fullName>Inclusão Social</fullName>
+                <default>false</default>
+                <label>Inclusão Social</label>
+            </value>
+            <value>
+                <fullName>João Pessoa</fullName>
+                <default>false</default>
+                <label>João Pessoa</label>
+            </value>
+            <value>
+                <fullName>Jundiaí</fullName>
+                <default>false</default>
+                <label>Jundiaí</label>
+            </value>
+            <value>
+                <fullName>Maceió</fullName>
+                <default>false</default>
+                <label>Maceió</label>
+            </value>
+            <value>
+                <fullName>Manaus</fullName>
+                <default>false</default>
+                <label>Manaus</label>
+            </value>
+            <value>
+                <fullName>Marília</fullName>
+                <default>false</default>
+                <label>Marília</label>
+            </value>
+            <value>
+                <fullName>Mogi Guaçu</fullName>
+                <default>false</default>
+                <label>Mogi Guaçu</label>
+            </value>
+            <value>
+                <fullName>Natal</fullName>
+                <default>false</default>
+                <label>Natal</label>
+            </value>
+            <value>
+                <fullName>Piracicaba</fullName>
+                <default>false</default>
+                <label>Piracicaba</label>
+            </value>
+            <value>
+                <fullName>Porto Velho</fullName>
+                <default>false</default>
+                <label>Porto Velho</label>
+            </value>
+            <value>
+                <fullName>Presidente Prudente</fullName>
+                <default>false</default>
+                <label>Presidente Prudente</label>
+            </value>
+            <value>
+                <fullName>Ribeirão Preto</fullName>
+                <default>false</default>
+                <label>Ribeirão Preto</label>
+            </value>
+            <value>
+                <fullName>Salvador</fullName>
+                <default>false</default>
+                <label>Salvador</label>
+            </value>
+            <value>
+                <fullName>Santos</fullName>
+                <default>false</default>
+                <label>Santos</label>
+            </value>
+            <value>
+                <fullName>São Caetano do Sul</fullName>
+                <default>false</default>
+                <label>São Caetano do Sul</label>
+            </value>
+            <value>
+                <fullName>São José do Rio Preto</fullName>
+                <default>false</default>
+                <label>São José do Rio Preto</label>
+            </value>
+            <value>
+                <fullName>São José dos Campos</fullName>
+                <default>false</default>
+                <label>São José dos Campos</label>
+            </value>
+            <value>
+                <fullName>São Luís</fullName>
+                <default>false</default>
+                <label>São Luís</label>
+            </value>
+            <value>
+                <fullName>São Paulo Capital</fullName>
+                <default>false</default>
+                <label>São Paulo Capital</label>
+            </value>
+            <value>
+                <fullName>Sobral</fullName>
+                <default>false</default>
+                <label>Sobral</label>
+            </value>
+            <value>
+                <fullName>Sorocaba</fullName>
+                <default>false</default>
+                <label>Sorocaba</label>
+            </value>
+            <value>
+                <fullName>Taubaté</fullName>
+                <default>false</default>
+                <label>Taubaté</label>
+            </value>
+            <value>
+                <fullName>Teresina</fullName>
+                <default>false</default>
+                <label>Teresina</label>
+            </value>
+            <value>
+                <fullName>Belo Horizonte</fullName>
+                <default>false</default>
+                <label>Belo Horizonte</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo</label>
+            </value>
+            <value>
+                <fullName>Palmas</fullName>
+                <default>false</default>
+                <label>Palmas</label>
+            </value>
+            <value>
+                <fullName>Macapá</fullName>
+                <default>false</default>
+                <label>Macapá</label>
+            </value>
+            <value>
+                <fullName>Boa Vista</fullName>
+                <default>false</default>
+                <label>Boa Vista</label>
+            </value>
+            <value>
+                <fullName>Rio Branco</fullName>
+                <default>false</default>
+                <label>Rio Branco</label>
+            </value>
+            <value>
+                <fullName>Araraquara</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Araraquara</label>
+            </value>
+            <value>
+                <fullName>Araçatuba</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Araçatuba</label>
+            </value>
+            <value>
+                <fullName>Camaçari</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Camaçari</label>
+            </value>
+            <value>
+                <fullName>Central Nacional de Licitações</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Central Nacional de Licitações</label>
+            </value>
+            <value>
+                <fullName>Feira de Santana</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Feira de Santana</label>
+            </value>
+            <value>
+                <fullName>Franca</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Franca</label>
+            </value>
+            <value>
+                <fullName>Itabuna</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Itabuna</label>
+            </value>
+            <value>
+                <fullName>Itapetininga</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Itapetininga</label>
+            </value>
+            <value>
+                <fullName>Juazeiro do Norte</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Juazeiro do Norte</label>
+            </value>
+            <value>
+                <fullName>Vitória da Conquista</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vitória da Conquista</label>
+            </value>
+            <value>
+                <fullName>Zona Leste</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Zona Leste</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

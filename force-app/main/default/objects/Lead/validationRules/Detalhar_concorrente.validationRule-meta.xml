@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detalhar_concorrente</fullName>
+    <active>false</active>
+    <description>Caso um dos valores da lista de opções &quot;Qual&quot; (concorrente) for &quot;Outro&quot;, justificar em campo de texto</description>
+    <errorConditionFormula>INCLUDES(Qual__c, &quot;Outro&quot;) &amp;&amp; ISBLANK(Dual_concorrente__c)</errorConditionFormula>
+    <errorDisplayField>Dual_concorrente__c</errorDisplayField>
+    <errorMessage>Por favor, detalhar o concorrente.</errorMessage>
+</ValidationRule>

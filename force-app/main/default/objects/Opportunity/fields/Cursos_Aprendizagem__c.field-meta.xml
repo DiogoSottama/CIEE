@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cursos_Aprendizagem__c</fullName>
+    <externalId>false</externalId>
+    <label>Cursos Aprendizagem</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Produto_Servico__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aprendiz de Açougueiro</fullName>
+                <default>false</default>
+                <label>Aprendiz de Açougueiro</label>
+            </value>
+            <value>
+                <fullName>EAD - Aprendiz de Açougueiro</fullName>
+                <default>false</default>
+                <label>EAD - Aprendiz de Açougueiro</label>
+            </value>
+            <value>
+                <fullName>Arco Ocupações Agrícolas</fullName>
+                <default>false</default>
+                <label>Arco Ocupações Agrícolas</label>
+            </value>
+            <value>
+                <fullName>EAD - Arco Ocupações Agrícolas</fullName>
+                <default>false</default>
+                <label>EAD - Arco Ocupações Agrícolas</label>
+            </value>
+            <value>
+                <fullName>Assistente Administrativo Rural</fullName>
+                <default>false</default>
+                <label>Assistente Administrativo Rural</label>
+            </value>
+            <value>
+                <fullName>EAD - Assistente Administrativo Rural</fullName>
+                <default>false</default>
+                <label>EAD - Assistente Administrativo Rural</label>
+            </value>
+            <value>
+                <fullName>Arco Ocupações Agrícolas Polivante</fullName>
+                <default>false</default>
+                <label>Arco Ocupações Agrícolas Polivante</label>
+            </value>
+            <value>
+                <fullName>EAD - Arco Ocupações Agrícolas Polivante</fullName>
+                <default>false</default>
+                <label>EAD - Arco Ocupações Agrícolas Polivante</label>
+            </value>
+            <value>
+                <fullName>Arco Ocupações Agroindustriais</fullName>
+                <default>false</default>
+                <label>Arco Ocupações Agroindustriais</label>
+            </value>
+            <value>
+                <fullName>EAD - Arco Ocupações Agroindustriais</fullName>
+                <default>false</default>
+                <label>EAD - Arco Ocupações Agroindustriais</label>
+            </value>
+            <value>
+                <fullName>Indústria da Carne</fullName>
+                <default>false</default>
+                <label>Indústria da Carne</label>
+            </value>
+            <value>
+                <fullName>EAD - Indústria da Carne</fullName>
+                <default>false</default>
+                <label>EAD - Indústria da Carne</label>
+            </value>
+            <value>
+                <fullName>Mecanização Agrícola</fullName>
+                <default>false</default>
+                <label>Mecanização Agrícola</label>
+            </value>
+            <value>
+                <fullName>EAD - Mecanização Agrícola</fullName>
+                <default>false</default>
+                <label>EAD - Mecanização Agrícola</label>
+            </value>
+            <value>
+                <fullName>Auxiliar de Logística</fullName>
+                <default>false</default>
+                <label>Auxiliar de Logística</label>
+            </value>
+            <value>
+                <fullName>Operador de telemarketing</fullName>
+                <default>false</default>
+                <label>Operador de telemarketing</label>
+            </value>
+            <value>
+                <fullName>Operador de Suporte Hardware/Software e Redes</fullName>
+                <default>false</default>
+                <label>Operador de Suporte Hardware/Software e Redes</label>
+            </value>
+            <value>
+                <fullName>Múltiplas Ocupações em Administrador de Banco de Dados - Economia 4.0</fullName>
+                <default>false</default>
+                <label>Múltiplas Ocupações em Administrador de Banco de Dados - Economia 4.0</label>
+            </value>
+            <value>
+                <fullName>Auxiliar de Alimentação</fullName>
+                <default>false</default>
+                <label>Auxiliar de Alimentação</label>
+            </value>
+            <value>
+                <fullName>Comércio e Varejo</fullName>
+                <default>false</default>
+                <label>Comércio e Varejo</label>
+            </value>
+            <value>
+                <fullName>Auxiliar de Produção</fullName>
+                <default>false</default>
+                <label>Auxiliar de Produção</label>
+            </value>
+            <value>
+                <fullName>Arco Administrativo</fullName>
+                <default>false</default>
+                <label>Arco Administrativo</label>
+            </value>
+            <value>
+                <fullName>Arco Bancário Adolescente 4h</fullName>
+                <default>false</default>
+                <label>Arco Bancário Adolescente 4h</label>
+            </value>
+            <value>
+                <fullName>Arco Bancário Jovem 6h</fullName>
+                <default>false</default>
+                <label>Arco Bancário Jovem 6h</label>
+            </value>
+            <value>
+                <fullName>Abatedor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Abatedor</label>
+            </value>
+            <value>
+                <fullName>Atendente de lanchonete</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Atendente de lanchonete</label>
+            </value>
+            <value>
+                <fullName>Açougueiro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Açougueiro</label>
+            </value>
+            <value>
+                <fullName>Cozinheiro em geral</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cozinheiro em geral</label>
+            </value>
+            <value>
+                <fullName>Cumim</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cumim</label>
+            </value>
+            <value>
+                <fullName>Desossador</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Desossador</label>
+            </value>
+            <value>
+                <fullName>Magarefe</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Magarefe</label>
+            </value>
+            <value>
+                <fullName>Mecanização Agrícola (CBO)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mecanização Agrícola (CBO)</label>
+            </value>
+            <value>
+                <fullName>Ocupações Administrativa - CBO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ocupações Administrativa - CBO</label>
+            </value>
+            <value>
+                <fullName>Operador de Caixa</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operador de Caixa</label>
+            </value>
+            <value>
+                <fullName>Produção</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Produção</label>
+            </value>
+            <value>
+                <fullName>Repositor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Repositor</label>
+            </value>
+            <value>
+                <fullName>Retalhador de Carne</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Retalhador de Carne</label>
+            </value>
+            <value>
+                <fullName>Vendedor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vendedor</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Auxiliar de Logística</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Operador de telemarketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Operador de Suporte Hardware/Software e Redes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Múltiplas Ocupações em Administrador de Banco de Dados - Economia 4.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Auxiliar de Alimentação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Comércio e Varejo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Auxiliar de Produção</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Arco Administrativo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Arco Bancário Adolescente 4h</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Empregador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Arco Bancário Jovem 6h</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>Aprendiz de Açougueiro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>EAD - Aprendiz de Açougueiro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>Arco Ocupações Agrícolas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>EAD - Arco Ocupações Agrícolas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>Assistente Administrativo Rural</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>EAD - Assistente Administrativo Rural</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>Arco Ocupações Agrícolas Polivante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>EAD - Arco Ocupações Agrícolas Polivante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>Arco Ocupações Agroindustriais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>EAD - Arco Ocupações Agroindustriais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>Indústria da Carne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>EAD - Indústria da Carne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>Mecanização Agrícola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz Agronegócio Capacitador</controllingFieldValue>
+            <controllingFieldValue>Aprendiz Agronegócio Empregador</controllingFieldValue>
+            <valueName>EAD - Mecanização Agrícola</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>-</fullName>
+        <default>true</default>
+        <label>-</label>
+    </customValue>
+    <customValue>
+        <fullName>Acerto de Cadastro</fullName>
+        <default>false</default>
+        <label>Acerto de Cadastro</label>
+    </customValue>
+    <customValue>
+        <fullName>Debito FCB</fullName>
+        <default>false</default>
+        <label>Debito FCB</label>
+    </customValue>
+    <customValue>
+        <fullName>Erro de Cadastramento</fullName>
+        <default>false</default>
+        <label>Erro de Cadastramento</label>
+    </customValue>
+    <customValue>
+        <fullName>Outros Tipos de Bloqueios</fullName>
+        <default>false</default>
+        <label>Outros Tipos de Bloqueios</label>
+    </customValue>
+    <customValue>
+        <fullName>Solicitacao da Empresa</fullName>
+        <default>false</default>
+        <label>Solicitacao da Empresa</label>
+    </customValue>
+    <customValue>
+        <fullName>Substituicao de Convenio</fullName>
+        <default>false</default>
+        <label>Substituicao de Convenio</label>
+    </customValue>
+    <customValue>
+        <fullName>Não</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Não</label>
+    </customValue>
+    <description>Campo global destinado para indicar se a empresa em questão possui bloqueios por débitos ou outros motivos</description>
+    <masterLabel>Bloqueio/Debito</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

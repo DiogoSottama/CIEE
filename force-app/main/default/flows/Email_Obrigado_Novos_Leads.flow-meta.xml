@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Novo_Lead</name>
+        <label>Novo Lead</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Obrigado!</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>NovoLead</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>59.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Email Obrigado Novos Leads {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Email Obrigado Novos Leads</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Novo_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Address</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Rua Pedroso Alvarengaz 2600</stringValue>
+            </value>
+        </filters>
+        <object>Lead</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>NovoLead</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;https://cieesp.file.force.com/sfc/servlet.shepherd/version/download/068U4000000jvmy?asPdf=false&amp;amp;operationContext=CHATTER&quot; alt=&quot;50dd3477-6264-456a-ba72-c6d8cd8715c0.jpg&quot;&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-2&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-2&quot;&gt;&lt;strong style=&quot;font-family: verdana;&quot;&gt;Olá, tudo bem?&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-2&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-2&quot;&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt;Agradecemos por preencher o formulário de contratação e dar um passo importante para impulsionar o crescimento do seu time.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-2&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-2&quot;&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt;Agora um representante do CIEE já vai entrar em contato contigo, pra te dar uma consultoria personalizada!&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-2&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-2&quot;&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt;Obrigado por confiar no CIEE como seu parceiro!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Como_ficou_sabendo_da_Expo_CIEE__c</fullName>
+    <externalId>false</externalId>
+    <label>Como ficou sabendo da Expo CIEE?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>Amigos</fullName>
+                <default>false</default>
+                <label>Amigos</label>
+            </value>
+            <value>
+                <fullName>Televisão</fullName>
+                <default>false</default>
+                <label>Televisão</label>
+            </value>
+            <value>
+                <fullName>Jornal</fullName>
+                <default>false</default>
+                <label>Jornal</label>
+            </value>
+            <value>
+                <fullName>E-mail</fullName>
+                <default>false</default>
+                <label>E-mail</label>
+            </value>
+            <value>
+                <fullName>Na sua empresa</fullName>
+                <default>false</default>
+                <label>Na sua empresa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

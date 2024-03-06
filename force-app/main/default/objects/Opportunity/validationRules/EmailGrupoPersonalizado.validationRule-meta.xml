@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmailGrupoPersonalizado</fullName>
+    <active>false</active>
+    <description>Se o atendimento personalizado for &quot;Sim&quot;, o email deverá ser preenchido.</description>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND( ISPICKVAL(AtendimentoPersonalizado__c, &quot;Sim&quot;), ISBLANK(EmailDoGrupoPersonalizado__c)))</errorConditionFormula>
+    <errorDisplayField>EmailDoGrupoPersonalizado__c</errorDisplayField>
+    <errorMessage>Campo obrigatório</errorMessage>
+</ValidationRule>

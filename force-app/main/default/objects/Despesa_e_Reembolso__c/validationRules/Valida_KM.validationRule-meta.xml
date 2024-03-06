@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_KM</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(	
+				ISBLANK(Km__c),
+    ISPICKVAL(Tipo_de_Despesa__c, &quot;KM&quot;)
+				)</errorConditionFormula>
+    <errorDisplayField>Km__c</errorDisplayField>
+    <errorMessage>Quando o tipo de despesa é &quot;KM&quot; o campo Km deve ser preenchido.</errorMessage>
+</ValidationRule>

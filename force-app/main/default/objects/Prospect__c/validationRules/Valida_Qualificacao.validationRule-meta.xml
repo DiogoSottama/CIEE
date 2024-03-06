@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Qualificacao</fullName>
+    <active>true</active>
+    <description>Quando o prospect é qualificado, essa regra torna o campos da fórmula obrigatórios.</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Status_do_prospect__c),
+ISPICKVAL(Status_do_prospect__c, &quot;Qualificado&quot;),
+OR(
+ISBLANK(CNPJ_CPF__c),
+ISBLANK(Razao_Social__c),
+ISBLANK(Email__c),
+ISBLANK(Celular__c),
+ISBLANK(TEXT(Gerencia_Regional__c)),
+ISBLANK(TEXT(Unidade_de_Atendimento__c)),
+ISBLANK(TEXT(CNAE__c)),
+ISBLANK(TEXT(CNAE_Divisao__c))
+)
+)</errorConditionFormula>
+    <errorMessage>Antes de qualificar o prospect é preciso preencher os seguintes campos: Email, Celular, Razão Social, CNPJ/CPF, CNAE, CNAE Divisão, Gerência Regional e Unidade de Atendimento.</errorMessage>
+</ValidationRule>

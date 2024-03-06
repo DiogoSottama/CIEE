@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Formato_ID_Kairos</fullName>
+    <active>true</active>
+    <description>Regra de validação para o campo id kairós (oportunidade) para aceitar apenas valores numéricos entre 4 e 19 caracteres quando a fase mudar para fechado / ganho.</description>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+and(
+ISPICKVAL( StageName , &quot;Fechado / Ganho&quot;),
+
+or(
+NOT(ISNUMBER( Id_kairos__c )),
+
+AND(
+LEN( Id_kairos__c ) != 4,
+LEN( Id_kairos__c ) != 5,
+LEN( Id_kairos__c ) != 6,
+LEN( Id_kairos__c ) != 7,
+LEN( Id_kairos__c ) != 8,
+LEN( Id_kairos__c ) != 9,
+LEN( Id_kairos__c ) != 10,
+LEN( Id_kairos__c ) != 11,
+LEN( Id_kairos__c ) != 12,
+LEN( Id_kairos__c ) != 13,
+LEN( Id_kairos__c ) != 14,
+LEN( Id_kairos__c ) != 15,
+LEN( Id_kairos__c ) != 16,
+LEN( Id_kairos__c ) != 17,
+LEN( Id_kairos__c ) != 18,
+LEN( Id_kairos__c ) != 19
+)
+)))</errorConditionFormula>
+    <errorDisplayField>Id_kairos__c</errorDisplayField>
+    <errorMessage>Rever o número do ID</errorMessage>
+</ValidationRule>

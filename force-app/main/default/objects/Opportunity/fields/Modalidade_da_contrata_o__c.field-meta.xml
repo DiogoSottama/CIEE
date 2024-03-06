@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modalidade_da_contrata_o__c</fullName>
+    <externalId>false</externalId>
+    <label>Modalidade da contratação</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Produto_Servico__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Presencial</fullName>
+                <default>false</default>
+                <label>Presencial</label>
+            </value>
+            <value>
+                <fullName>EAD - Opção I</fullName>
+                <default>false</default>
+                <label>EAD - Opção I</label>
+            </value>
+            <value>
+                <fullName>EAD - Opção II (Economia 4.0)</fullName>
+                <default>false</default>
+                <label>EAD - Opção II (Economia 4.0)</label>
+            </value>
+            <value>
+                <fullName>EAD - Opção III (Atividade fim)</fullName>
+                <default>false</default>
+                <label>EAD - Opção III (Atividade fim)</label>
+            </value>
+            <value>
+                <fullName>EAD - Opção IV</fullName>
+                <default>false</default>
+                <label>EAD - Opção IV</label>
+            </value>
+            <value>
+                <fullName>EAD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EAD</label>
+            </value>
+            <value>
+                <fullName>Nenhum</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nenhum</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>Presencial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>EAD - Opção I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>EAD - Opção II (Economia 4.0)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>EAD - Opção III (Atividade fim)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aprendiz</controllingFieldValue>
+            <valueName>EAD - Opção IV</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

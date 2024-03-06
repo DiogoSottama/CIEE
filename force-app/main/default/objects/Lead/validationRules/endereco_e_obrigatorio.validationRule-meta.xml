@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>endereco_e_obrigatorio</fullName>
+    <active>false</active>
+    <description>Esta regra foi criada para tornar este campo obrigatório</description>
+    <errorConditionFormula>OR(
+ISBLANK(Street ),
+ISBLANK( State ),
+ISBLANK( Country ),
+ISBLANK( PostalCode ),
+ISBLANK( City ))</errorConditionFormula>
+    <errorMessage>Obrigatório preencher endereço completo.</errorMessage>
+</ValidationRule>

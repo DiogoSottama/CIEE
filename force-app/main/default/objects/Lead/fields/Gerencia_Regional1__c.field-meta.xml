@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gerencia_Regional1__c</fullName>
+    <externalId>false</externalId>
+    <label>Gerência Regional1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GR Grande São Paulo e Capital</fullName>
+                <default>false</default>
+                <label>GR Grande São Paulo e Capital</label>
+            </value>
+            <value>
+                <fullName>GR SP Interior e BH</fullName>
+                <default>false</default>
+                <label>GR SP Interior e BH</label>
+            </value>
+            <value>
+                <fullName>GR Centro Oeste e DF</fullName>
+                <default>false</default>
+                <label>GR Centro Oeste e DF</label>
+            </value>
+            <value>
+                <fullName>GR Nordeste</fullName>
+                <default>false</default>
+                <label>GR Nordeste</label>
+            </value>
+            <value>
+                <fullName>GR Norte</fullName>
+                <default>false</default>
+                <label>GR Norte</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

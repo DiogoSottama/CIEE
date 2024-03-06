@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>outrosInteresses__c</fullName>
+    <externalId>false</externalId>
+    <label>Outros interesses</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Estágio</fullName>
+                <default>false</default>
+                <label>Estágio</label>
+            </value>
+            <value>
+                <fullName>Aprendiz</fullName>
+                <default>false</default>
+                <label>Aprendiz</label>
+            </value>
+            <value>
+                <fullName>Estágio e Aprendiz</fullName>
+                <default>false</default>
+                <label>Estágio e Aprendiz</label>
+            </value>
+            <value>
+                <fullName>Inclui</fullName>
+                <default>false</default>
+                <label>Inclui</label>
+            </value>
+            <value>
+                <fullName>PE</fullName>
+                <default>false</default>
+                <label>PE</label>
+            </value>
+            <value>
+                <fullName>Expo</fullName>
+                <default>false</default>
+                <label>Expo</label>
+            </value>
+            <value>
+                <fullName>Agro/magarefe</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Agro/magarefe</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

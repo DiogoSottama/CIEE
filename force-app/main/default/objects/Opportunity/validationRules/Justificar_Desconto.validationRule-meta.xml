@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Justificar_Desconto</fullName>
+    <active>true</active>
+    <description>Essa regra torna o campo Justiticativa obrigatório quando uma oportunidade tiver desconto na CI.</description>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+Desconto_na_CI__c,
+ISBLANK(Justificativa_do_valor_da_proposta__c)))</errorConditionFormula>
+    <errorDisplayField>Justificativa_do_valor_da_proposta__c</errorDisplayField>
+    <errorMessage>É preciso justificar o desconto.</errorMessage>
+</ValidationRule>

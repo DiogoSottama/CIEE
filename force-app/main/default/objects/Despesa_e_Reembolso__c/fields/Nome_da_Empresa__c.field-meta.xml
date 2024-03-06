@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nome_da_Empresa__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Conta__c != null, Conta__r.Name, IF(Prospect__c != null, Prospect__r.Name, Lead__r.FirstName + &apos; &apos; + Lead__r.LastName ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Nome da Empresa</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

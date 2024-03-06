@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campanha__c</fullName>
+    <externalId>false</externalId>
+    <label>Campanha</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100 Maiores Bancos</fullName>
+                <default>false</default>
+                <label>100 Maiores Bancos</label>
+            </value>
+            <value>
+                <fullName>AASP</fullName>
+                <default>false</default>
+                <label>AASP</label>
+            </value>
+            <value>
+                <fullName>Ação Piracicaba</fullName>
+                <default>false</default>
+                <label>Ação Piracicaba</label>
+            </value>
+            <value>
+                <fullName>Armazém Fit</fullName>
+                <default>false</default>
+                <label>Armazém Fit</label>
+            </value>
+            <value>
+                <fullName>CDL Formosa</fullName>
+                <default>false</default>
+                <label>CDL Formosa</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>CISCO</fullName>
+                <default>false</default>
+                <label>CISCO</label>
+            </value>
+            <value>
+                <fullName>GERHAI</fullName>
+                <default>false</default>
+                <label>GERHAI</label>
+            </value>
+            <value>
+                <fullName>Incluir campanha</fullName>
+                <default>false</default>
+                <label>Incluir campanha</label>
+            </value>
+            <value>
+                <fullName>Indicação MTE CG</fullName>
+                <default>false</default>
+                <label>Indicação MTE CG</label>
+            </value>
+            <value>
+                <fullName>John Deere</fullName>
+                <default>false</default>
+                <label>John Deere</label>
+            </value>
+            <value>
+                <fullName>Maiores Empresas</fullName>
+                <default>false</default>
+                <label>Maiores Empresas</label>
+            </value>
+            <value>
+                <fullName>Migração</fullName>
+                <default>false</default>
+                <label>Migração</label>
+            </value>
+            <value>
+                <fullName>Panfletagem JT</fullName>
+                <default>false</default>
+                <label>Panfletagem JT</label>
+            </value>
+            <value>
+                <fullName>PR-SJBV</fullName>
+                <default>false</default>
+                <label>PR-SJBV</label>
+            </value>
+            <value>
+                <fullName>Retomada</fullName>
+                <default>false</default>
+                <label>Retomada</label>
+            </value>
+            <value>
+                <fullName>Top Startups 2022</fullName>
+                <default>false</default>
+                <label>Top Startups 2022</label>
+            </value>
+            <value>
+                <fullName>Leads2b</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Leads2b</label>
+            </value>
+            <value>
+                <fullName>PR - SJBV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PR - SJBV</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

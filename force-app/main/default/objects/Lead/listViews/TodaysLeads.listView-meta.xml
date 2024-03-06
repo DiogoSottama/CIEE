@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TodaysLeads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>DataEHoraDeCriacaoDoLead__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>9/20/2020 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>notContain</operation>
+        <value>Expositor Expo CIEE,Sales Navigator - LinkedIn</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Novo_nao_contatado,Novo - Não contatado,Trabalhando_contatado,Trabalhando - Contatado,Em espera - Coronavírus,Desqualificado,Convertido</value>
+    </filters>
+    <label>Leads de hoje</label>
+</ListView>

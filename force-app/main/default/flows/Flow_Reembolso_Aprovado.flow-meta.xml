@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Email_Relatorio_Enviado</name>
+        <label>Email Relatorio Enviado</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Relatório {!$Record.Name} Aprovado pelo Gestor no Sales Cloud</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>Seurelatoriofoiaprovado</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>[Flow] Reembolso - Aprovado {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>[Flow] Reembolso - Aprovado</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Email_Relatorio_Enviado</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Aprovado</stringValue>
+            </value>
+        </filters>
+        <object>Despesa_e_Reembolso__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>EmailRelatorioEnviadoRichText</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;Prezado {!$Record.Owner:User.FirstName},&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;O relatório &lt;/span&gt;&lt;strong style=&quot;font-family: sans-serif;&quot;&gt;{!$Record.Name}{!$Record}&lt;/strong&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt; foi enviado para aprovação de seu gestor.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;Favor se atentar ao status do relatório para garantir que o mesmo esteja como &lt;/span&gt;&lt;strong style=&quot;font-family: sans-serif;&quot;&gt;Aprovado Pelo Gestor &lt;/strong&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;antes das datas de corte estabelecidas pela área de Contabilidade.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;Em caso de dúvidas/dificuldades:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: sans-serif;&quot;&gt;Sales Cloud -&lt;/strong&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;arman.mani@ciee.ong.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: sans-serif;&quot;&gt;arman.mani@ciee.ong.br&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: sans-serif;&quot;&gt;Contabilidade/Totvs -&lt;/strong&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;rodrigo_souza@ciee.ong.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: sans-serif;&quot;&gt;rodrigo_souza@ciee.ong.br&lt;/a&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt; ou &lt;/span&gt;&lt;a href=&quot;emmanuely_barros@ciee.ong.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: sans-serif;&quot;&gt;emmanuely_barros@ciee.ong.br&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;Obrigado!&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>Seurelatoriofoiaprovado</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;Prezado(a) {!$Record.Owner:User.FirstName},&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;O relatório &lt;/span&gt;&lt;strong style=&quot;font-family: sans-serif;&quot;&gt;{!$Record.Name}&lt;/strong&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt; foi aprovado no Sales Cloud e agora precisa ser aprovado através de um e-mail do Totvs que será enviado ao seu gestor.&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>TextoEmailRelatorioReembEnviadoPAprovacao</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt;Prezado {!$Record.Owner:User.FirstName},&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt;O relatório &lt;/span&gt;&lt;strong style=&quot;font-family: verdana;&quot;&gt;{!$Record.Name}&lt;/strong&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt; foi enviado para aprovação de seu gestor. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt;Favor se atentar ao status do relatório para garantir que o mesmo esteja como &lt;/span&gt;&lt;strong style=&quot;font-family: verdana;&quot;&gt;Aprovado pelo Gestor &lt;/strong&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt;antes das datas de corte estabelecidas pela área de Contabilidade.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt;Em caso de dúvidas/dificuldades: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana;&quot;&gt;Sales Cloud&lt;/strong&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt; - &lt;/span&gt;&lt;a href=&quot;arman.mani@ciee.ong.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: verdana;&quot;&gt;arman.mani@ciee.ong.br&lt;/a&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: verdana;&quot;&gt;Contabilidade/Totvs -&lt;/strong&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;rodrigo_souza@ciee.ong.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: verdana;&quot;&gt;rodrigo_souza@ciee.ong.br&lt;/a&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt; ou &lt;/span&gt;&lt;a href=&quot;emmanuely_barros@ciee.ong.br&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: verdana;&quot;&gt;emmanuely_barros@ciee.ong.br&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: verdana;&quot;&gt;Obrigado!&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

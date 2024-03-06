@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantidade_de_Reposi_es_Aceitas__c</fullName>
+    <description>Inserir o número de reposições aceitas.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Inserir o número de reposições aceitas.</inlineHelpText>
+    <label>Quantidade de Reposições Aceitas</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_de_Desqualifica_o__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo de Desqualificação</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aderência do público</fullName>
+                <default>false</default>
+                <label>Aderência do público</label>
+            </value>
+            <value>
+                <fullName>Atividades incompatíveis para Estágio e/ou Aprendizagem</fullName>
+                <default>false</default>
+                <label>Atividades incompatíveis para Estágio e/ou Aprendizagem</label>
+            </value>
+            <value>
+                <fullName>Atraso</fullName>
+                <default>false</default>
+                <label>Atraso</label>
+            </value>
+            <value>
+                <fullName>Calendário</fullName>
+                <default>false</default>
+                <label>Calendário</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo ES</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo ES</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo MG</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo MG</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo PE</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo PE</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo PR</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo PR</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo RJ</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo RJ</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo RS</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo RS</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo SC</fullName>
+                <default>false</default>
+                <label>CIEE Autônomo SC</label>
+            </value>
+            <value>
+                <fullName>Concorrência - não identificado</fullName>
+                <default>false</default>
+                <label>Concorrência - não identificado</label>
+            </value>
+            <value>
+                <fullName>Concorrente Modelo de Atendimento</fullName>
+                <default>false</default>
+                <label>Concorrente Modelo de Atendimento</label>
+            </value>
+            <value>
+                <fullName>Concorrente Preço</fullName>
+                <default>false</default>
+                <label>Concorrente Preço</label>
+            </value>
+            <value>
+                <fullName>Contratação CLT</fullName>
+                <default>false</default>
+                <label>Contratação CLT</label>
+            </value>
+            <value>
+                <fullName>Dúvidas sobre vagas</fullName>
+                <default>false</default>
+                <label>Dúvidas sobre vagas</label>
+            </value>
+            <value>
+                <fullName>Empresa deseja contratar 100% home office</fullName>
+                <default>false</default>
+                <label>Empresa deseja contratar 100% home office</label>
+            </value>
+            <value>
+                <fullName>Engano</fullName>
+                <default>false</default>
+                <label>Engano</label>
+            </value>
+            <value>
+                <fullName>Estudante</fullName>
+                <default>false</default>
+                <label>Estudante</label>
+            </value>
+            <value>
+                <fullName>É uma Empresa Ativa/Inativa</fullName>
+                <default>false</default>
+                <label>É uma Empresa Ativa/Inativa</label>
+            </value>
+            <value>
+                <fullName>Experiência na Expo 2020</fullName>
+                <default>false</default>
+                <label>Experiência na Expo 2020</label>
+            </value>
+            <value>
+                <fullName>Falta de retorno</fullName>
+                <default>false</default>
+                <label>Falta de retorno</label>
+            </value>
+            <value>
+                <fullName>Lead duplicado</fullName>
+                <default>false</default>
+                <label>Lead duplicado</label>
+            </value>
+            <value>
+                <fullName>Não demonstrou interesse</fullName>
+                <default>false</default>
+                <label>Não demonstrou interesse</label>
+            </value>
+            <value>
+                <fullName>Orçamento</fullName>
+                <default>false</default>
+                <label>Orçamento</label>
+            </value>
+            <value>
+                <fullName>Outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+            <value>
+                <fullName>Momento inoportuno para empresa</fullName>
+                <default>false</default>
+                <label>Perdeu o interesse, no momento</label>
+            </value>
+            <value>
+                <fullName>Sem previsão para contratação</fullName>
+                <default>false</default>
+                <label>Sem previsão para contratação</label>
+            </value>
+            <value>
+                <fullName>Serviço gratuito</fullName>
+                <default>false</default>
+                <label>Serviço gratuito</label>
+            </value>
+            <value>
+                <fullName>Tentativas excedidas de contato</fullName>
+                <default>false</default>
+                <label>Tentativas excedidas de contato</label>
+            </value>
+            <value>
+                <fullName>Teste</fullName>
+                <default>false</default>
+                <label>Teste</label>
+            </value>
+            <value>
+                <fullName>CIEE Autônomo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CIEE Autônomo</label>
+            </value>
+            <value>
+                <fullName>Preferência pelo concorrente</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Preferência pelo concorrente</label>
+            </value>
+            <value>
+                <fullName>Trabalhador Autônomo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trabalhador Autônomo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Aderência do público</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Atividades incompatíveis para Estágio e/ou Aprendizagem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Atraso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Calendário</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>CIEE Autônomo ES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>CIEE Autônomo MG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>CIEE Autônomo PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>CIEE Autônomo PR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>CIEE Autônomo RJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>CIEE Autônomo RS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>CIEE Autônomo SC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Concorrência - não identificado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Concorrente Modelo de Atendimento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Concorrente Preço</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Contratação CLT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Dúvidas sobre vagas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Empresa deseja contratar 100% home office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Engano</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Estudante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>É uma Empresa Ativa/Inativa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Experiência na Expo 2020</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Falta de retorno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Lead duplicado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Não demonstrou interesse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Orçamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Outros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Momento inoportuno para empresa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Sem previsão para contratação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Serviço gratuito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Tentativas excedidas de contato</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desqualificado</controllingFieldValue>
+            <valueName>Teste</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

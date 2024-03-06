@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Hierarquia_da_Conta</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+IF(!ISPICKVAL(Hierarquia_da_Conta__c,&quot;Filial&quot;) &amp;&amp; !ISBLANK(ParentId),true,false))</errorConditionFormula>
+    <errorDisplayField>ParentId</errorDisplayField>
+    <errorMessage>Só é possível preencher o campo &quot;Parent Account&quot; quando a Hierarquia da conta for &quot;Filial&quot;</errorMessage>
+</ValidationRule>

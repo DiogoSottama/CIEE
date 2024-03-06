@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Acre</fullName>
+        <default>false</default>
+        <label>Acre</label>
+    </customValue>
+    <customValue>
+        <fullName>Administração Pública DF</fullName>
+        <default>false</default>
+        <label>Administração Pública DF</label>
+    </customValue>
+    <customValue>
+        <fullName>Agronegocio</fullName>
+        <default>false</default>
+        <label>Agronegócio</label>
+    </customValue>
+    <customValue>
+        <fullName>Amapa</fullName>
+        <default>false</default>
+        <label>Amapá</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazonas</fullName>
+        <default>false</default>
+        <label>Amazonas</label>
+    </customValue>
+    <customValue>
+        <fullName>1801</fullName>
+        <default>false</default>
+        <label>Aracaju</label>
+    </customValue>
+    <customValue>
+        <fullName>2402</fullName>
+        <default>false</default>
+        <label>Barra Mansa</label>
+    </customValue>
+    <customValue>
+        <fullName>105</fullName>
+        <default>false</default>
+        <label>Barueri</label>
+    </customValue>
+    <customValue>
+        <fullName>151</fullName>
+        <default>false</default>
+        <label>Bauru</label>
+    </customValue>
+    <customValue>
+        <fullName>2501</fullName>
+        <default>false</default>
+        <label>Belo Horizonte</label>
+    </customValue>
+    <customValue>
+        <fullName>302</fullName>
+        <default>false</default>
+        <label>Camaçari</label>
+    </customValue>
+    <customValue>
+        <fullName>111</fullName>
+        <default>false</default>
+        <label>Campinas</label>
+    </customValue>
+    <customValue>
+        <fullName>2405</fullName>
+        <default>false</default>
+        <label>Campos</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Nacional de Licitações</fullName>
+        <default>false</default>
+        <label>Central Nacional de Licitações</label>
+    </customValue>
+    <customValue>
+        <fullName>2301</fullName>
+        <default>false</default>
+        <label>Curitiba</label>
+    </customValue>
+    <customValue>
+        <fullName>Distrito Federal</fullName>
+        <default>false</default>
+        <label>Distrito Federal</label>
+    </customValue>
+    <customValue>
+        <fullName>2410</fullName>
+        <default>false</default>
+        <label>Duque de Caxias</label>
+    </customValue>
+    <customValue>
+        <fullName>311</fullName>
+        <default>false</default>
+        <label>Feira de Santana</label>
+    </customValue>
+    <customValue>
+        <fullName>2101</fullName>
+        <default>false</default>
+        <label>Florianópolis</label>
+    </customValue>
+    <customValue>
+        <fullName>1401</fullName>
+        <default>false</default>
+        <label>Fortaleza</label>
+    </customValue>
+    <customValue>
+        <fullName>142</fullName>
+        <default>false</default>
+        <label>Franca</label>
+    </customValue>
+    <customValue>
+        <fullName>Goias</fullName>
+        <default>false</default>
+        <label>Goiás</label>
+    </customValue>
+    <customValue>
+        <fullName>103</fullName>
+        <default>false</default>
+        <label>Guarulhos</label>
+    </customValue>
+    <customValue>
+        <fullName>Inclusão Social</fullName>
+        <default>false</default>
+        <label>Inclusão Social</label>
+    </customValue>
+    <customValue>
+        <fullName>321</fullName>
+        <default>false</default>
+        <label>Itabuna</label>
+    </customValue>
+    <customValue>
+        <fullName>1601</fullName>
+        <default>false</default>
+        <label>João Pessoa</label>
+    </customValue>
+    <customValue>
+        <fullName>1411</fullName>
+        <default>false</default>
+        <label>Juazeiro do Norte</label>
+    </customValue>
+    <customValue>
+        <fullName>116</fullName>
+        <default>false</default>
+        <label>Jundiaí</label>
+    </customValue>
+    <customValue>
+        <fullName>2406</fullName>
+        <default>false</default>
+        <label>Macaé</label>
+    </customValue>
+    <customValue>
+        <fullName>1701</fullName>
+        <default>false</default>
+        <label>Maceió</label>
+    </customValue>
+    <customValue>
+        <fullName>152</fullName>
+        <default>false</default>
+        <label>Marília</label>
+    </customValue>
+    <customValue>
+        <fullName>Mato Grosso</fullName>
+        <default>false</default>
+        <label>Mato Grosso</label>
+    </customValue>
+    <customValue>
+        <fullName>Mato Grosso do Sul</fullName>
+        <default>false</default>
+        <label>Mato Grosso do Sul</label>
+    </customValue>
+    <customValue>
+        <fullName>1501</fullName>
+        <default>false</default>
+        <label>Natal</label>
+    </customValue>
+    <customValue>
+        <fullName>2407</fullName>
+        <default>false</default>
+        <label>Niterói</label>
+    </customValue>
+    <customValue>
+        <fullName>2408</fullName>
+        <default>false</default>
+        <label>Nova Friburgo</label>
+    </customValue>
+    <customValue>
+        <fullName>2409</fullName>
+        <default>false</default>
+        <label>Nova Iguaçu</label>
+    </customValue>
+    <customValue>
+        <fullName>Para</fullName>
+        <default>false</default>
+        <label>Pará</label>
+    </customValue>
+    <customValue>
+        <fullName>2411</fullName>
+        <default>false</default>
+        <label>Petrópolis</label>
+    </customValue>
+    <customValue>
+        <fullName>112</fullName>
+        <default>false</default>
+        <label>Piracicaba</label>
+    </customValue>
+    <customValue>
+        <fullName>2201</fullName>
+        <default>false</default>
+        <label>Porto Alegre</label>
+    </customValue>
+    <customValue>
+        <fullName>2601</fullName>
+        <default>false</default>
+        <label>Recife</label>
+    </customValue>
+    <customValue>
+        <fullName>2403</fullName>
+        <default>false</default>
+        <label>Resende</label>
+    </customValue>
+    <customValue>
+        <fullName>141</fullName>
+        <default>false</default>
+        <label>Ribeirão Preto</label>
+    </customValue>
+    <customValue>
+        <fullName>2401</fullName>
+        <default>false</default>
+        <label>Rio de Janeiro</label>
+    </customValue>
+    <customValue>
+        <fullName>Rondonia</fullName>
+        <default>false</default>
+        <label>Rondônia</label>
+    </customValue>
+    <customValue>
+        <fullName>Roraima</fullName>
+        <default>false</default>
+        <label>Roraima</label>
+    </customValue>
+    <customValue>
+        <fullName>301</fullName>
+        <default>false</default>
+        <label>Salvador</label>
+    </customValue>
+    <customValue>
+        <fullName>131</fullName>
+        <default>false</default>
+        <label>Santos</label>
+    </customValue>
+    <customValue>
+        <fullName>161</fullName>
+        <default>false</default>
+        <label>São José do Rio Preto</label>
+    </customValue>
+    <customValue>
+        <fullName>121</fullName>
+        <default>false</default>
+        <label>São José dos Campos</label>
+    </customValue>
+    <customValue>
+        <fullName>1201</fullName>
+        <default>false</default>
+        <label>São Luís</label>
+    </customValue>
+    <customValue>
+        <fullName>101</fullName>
+        <default>false</default>
+        <label>São Paulo Capital</label>
+    </customValue>
+    <customValue>
+        <fullName>1402</fullName>
+        <default>false</default>
+        <label>Sobral</label>
+    </customValue>
+    <customValue>
+        <fullName>115</fullName>
+        <default>false</default>
+        <label>Sorocaba</label>
+    </customValue>
+    <customValue>
+        <fullName>1301</fullName>
+        <default>false</default>
+        <label>Teresina</label>
+    </customValue>
+    <customValue>
+        <fullName>2430</fullName>
+        <default>false</default>
+        <label>Teresópolis</label>
+    </customValue>
+    <customValue>
+        <fullName>Tocantins</fullName>
+        <default>false</default>
+        <label>Tocantins</label>
+    </customValue>
+    <customValue>
+        <fullName>2412</fullName>
+        <default>false</default>
+        <label>Três Rios</label>
+    </customValue>
+    <customValue>
+        <fullName>213</fullName>
+        <default>false</default>
+        <label>Unidade Grande ABC</label>
+    </customValue>
+    <customValue>
+        <fullName>401</fullName>
+        <default>false</default>
+        <label>Vitória</label>
+    </customValue>
+    <customValue>
+        <fullName>201</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Brasília</label>
+    </customValue>
+    <customValue>
+        <fullName>145</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Araraquara</label>
+    </customValue>
+    <customValue>
+        <fullName>162</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Araçatuba</label>
+    </customValue>
+    <customValue>
+        <fullName>1001</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Belém</label>
+    </customValue>
+    <customValue>
+        <fullName>244</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>São Paulo - Zona Leste</label>
+    </customValue>
+    <customValue>
+        <fullName>1502</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mossoró</label>
+    </customValue>
+    <customValue>
+        <fullName>214</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Osasco</label>
+    </customValue>
+    <customValue>
+        <fullName>102</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mogi das Cruzes</label>
+    </customValue>
+    <customValue>
+        <fullName>603</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rio Branco</label>
+    </customValue>
+    <customValue>
+        <fullName>605</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Boa Vista</label>
+    </customValue>
+    <customValue>
+        <fullName>604</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Macapá</label>
+    </customValue>
+    <customValue>
+        <fullName>2020</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Belo Horizonte - U. Op.</label>
+    </customValue>
+    <customValue>
+        <fullName>CIEE Autônomo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CIEE Autônomo</label>
+    </customValue>
+    <customValue>
+        <fullName>322</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Vitória da Conquista</label>
+    </customValue>
+    <customValue>
+        <fullName>126</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Taubaté</label>
+    </customValue>
+    <customValue>
+        <fullName>171</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Presidente Prudente</label>
+    </customValue>
+    <customValue>
+        <fullName>602</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Porto Velho</label>
+    </customValue>
+    <customValue>
+        <fullName>503</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Palmas</label>
+    </customValue>
+    <customValue>
+        <fullName>216</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mogi Guaçu</label>
+    </customValue>
+    <customValue>
+        <fullName>601</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Manaus</label>
+    </customValue>
+    <customValue>
+        <fullName>243</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Itapetininga</label>
+    </customValue>
+    <customValue>
+        <fullName>501</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Goiânia</label>
+    </customValue>
+    <customValue>
+        <fullName>1901</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cuiabá</label>
+    </customValue>
+    <customValue>
+        <fullName>2001</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Campo Grande</label>
+    </customValue>
+    <masterLabel>Unidades de Atendimento</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

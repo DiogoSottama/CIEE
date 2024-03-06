@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Atendimento_personalizado_obrigatorio</fullName>
+    <active>false</active>
+    <description>O campo Atendimento Personalizado deve ser obrigatório quando for uma edição de oportunidade, mas não deve ser obrigatório na criação.</description>
+    <errorConditionFormula>AND( NOT(ISNEW()),			
+ ISPICKVAL( AtendimentoPersonalizado__c , &quot;&quot;) 
+				)</errorConditionFormula>
+    <errorDisplayField>AtendimentoPersonalizado__c</errorDisplayField>
+    <errorMessage>Campo obrigatório.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Cursos_Aprendizagem</fullName>
+    <active>true</active>
+    <description>Essa regra torna o campo &quot;Cursos Aprendizagem&quot; obrigatório, quando uma oportunidade de Aprendiz estiver nas fases Contrato DocuSign ou Fechada/Ganha</description>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+CASE(StageName, &quot;Fechado / Ganho&quot;,1, &quot;Contrato DocuSign&quot; ,1,0)=1,
+TEXT(Produto_Servico__c)=&apos;Aprendiz&apos;,
+ISBLANK(Cursos_Aprendizagem__c)))</errorConditionFormula>
+    <errorDisplayField>Cursos_Aprendizagem__c</errorDisplayField>
+    <errorMessage>Necessário indicar o(s) curso(s) de interesse.</errorMessage>
+</ValidationRule>

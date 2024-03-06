@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oportunidades_de_Feiras</fullName>
+    <active>true</active>
+    <businessProcess>Processo de vendas de Feiras</businessProcess>
+    <description>Usar para registrar oportunidades de Feiras</description>
+    <label>Oportunidades de Feiras</label>
+    <picklistValues>
+        <picklist>Ano__c</picklist>
+        <values>
+            <fullName>2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AtendimentoPersonalizado__c</picklist>
+        <values>
+            <fullName>Não</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sim</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CIEE_Saude__c</picklist>
+        <values>
+            <fullName>Enviou apresentação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não demonstrou interesse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Categoria__c</picklist>
+        <values>
+            <fullName>e-central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>e-ciee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>e-class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>e-consult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>e-one</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cidade_Expo_CIEE__c</picklist>
+        <values>
+            <fullName>Ceará</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goiás</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Híbrido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sorocaba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São José dos Campos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São Paulo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Concorrente__c</picklist>
+        <values>
+            <fullName>Companhia de estágio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Espro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instituições de ensino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nube</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cursos_Aprendizagem__c</picklist>
+        <values>
+            <fullName>Arco Ocupações Agrícolas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assistente Administrativo Rural</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Formato_de_Participa_o__c</picklist>
+        <values>
+            <fullName>Apoiador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comunicação Visual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expositor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parceria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patrocínio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patrocínio Master</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sampling</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Ativo - Empresa Ativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ativo - Empresa Inativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cartão de visita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evento_externo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evento_interno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expositor Expo CIEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicação externa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicação interna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ligacao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parceria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pesquisa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecção ativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receptivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receptivo - Empresa Inativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales_navigator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>midia_digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>midia_impressa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>migracao_kairos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>pre_cadastro</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget %2F Lost Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision %2F Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Modalidade_da_contrata_o__c</picklist>
+        <values>
+            <fullName>EAD - Opção I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EAD - Opção II %28Economia 4%2E0%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EAD - Opção III %28Atividade fim%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EAD - Opção IV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presencial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MotivoDaPerda__c</picklist>
+        <values>
+            <fullName>Aderência ao público</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE não possui pólo de capacitação presencial próximo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calendário</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empresa declinou da parceria sem justificativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empresa não deseja aguardar a validação da capacitação EAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experiência na Expo 2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de retorno da empresa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não temos turmas disponíveis em Ribeirão Preto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oportunidade em duplicidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orçamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem retorno da assinatura na fase Contrato DocuSign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem supervisão com conhecimento ou formação na área de atuação do estagiário</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tentativas excedidas de contato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>outros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_Stand_by__c</picklist>
+        <values>
+            <fullName>2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inclui</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pandemia</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_Unidade__c</picklist>
+        <values>
+            <fullName>Empresa ativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empresa inativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de retorno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negociação estratégica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parceria com outro CNPJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pré-cadastro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visita presencial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_de_perda_Feiras__c</picklist>
+        <values>
+            <fullName>Aderência ao público</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calendário</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orçamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Produto_Servico__c</picklist>
+        <values>
+            <fullName>Aprendiz Agronegócio Capacitador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aprendiz Agronegócio Empregador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE eSports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expo CIEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Festival CIEE da Diversidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hackathon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prêmio CIEE ESG</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating__c</picklist>
+        <values>
+            <fullName>Frio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quente</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_Unidade__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Especificar o motivo de encaminhamento para a Unidade.</inlineHelpText>
+    <label>Motivo - Unidade</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Unidade__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aprendiz Capacitador (BH)</fullName>
+                <default>false</default>
+                <label>Aprendiz Capacitador (BH)</label>
+            </value>
+            <value>
+                <fullName>Aprendiz Empregador</fullName>
+                <default>false</default>
+                <label>Aprendiz Empregador</label>
+            </value>
+            <value>
+                <fullName>Em contato com a Unidade</fullName>
+                <default>false</default>
+                <label>Em contato com a Unidade</label>
+            </value>
+            <value>
+                <fullName>Empresa ativa</fullName>
+                <default>false</default>
+                <label>Empresa ativa</label>
+            </value>
+            <value>
+                <fullName>Empresa inativa</fullName>
+                <default>false</default>
+                <label>Empresa inativa</label>
+            </value>
+            <value>
+                <fullName>Falta de retorno</fullName>
+                <default>false</default>
+                <label>Falta de retorno</label>
+            </value>
+            <value>
+                <fullName>Negociação estratégica</fullName>
+                <default>false</default>
+                <label>Negociação estratégica</label>
+            </value>
+            <value>
+                <fullName>Orgão Público</fullName>
+                <default>false</default>
+                <label>Orgão Público</label>
+            </value>
+            <value>
+                <fullName>Pagamento Centralizado</fullName>
+                <default>false</default>
+                <label>Pagamento Centralizado</label>
+            </value>
+            <value>
+                <fullName>Parceria com outro CNPJ</fullName>
+                <default>false</default>
+                <label>Parceria com outro CNPJ</label>
+            </value>
+            <value>
+                <fullName>Pré-cadastro</fullName>
+                <default>false</default>
+                <label>Pré-cadastro</label>
+            </value>
+            <value>
+                <fullName>Visita presencial</fullName>
+                <default>false</default>
+                <label>Visita presencial</label>
+            </value>
+            <value>
+                <fullName>Convênio Aprendiz Empregador</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Convênio Aprendiz Empregador</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Aprendiz Capacitador (BH)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Aprendiz Empregador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Em contato com a Unidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Empresa ativa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Empresa inativa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Falta de retorno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Negociação estratégica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Orgão Público</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Pagamento Centralizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Parceria com outro CNPJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Pré-cadastro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Visita presencial</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

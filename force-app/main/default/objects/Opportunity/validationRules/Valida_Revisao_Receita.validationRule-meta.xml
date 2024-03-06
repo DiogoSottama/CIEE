@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Revisao_Receita</fullName>
+    <active>true</active>
+    <description>Essa regra torna o campo &quot;Dados validados na Receita Federal?&quot; obrigatório, quando uma oportunidade de Aprendiz estiver nas fases Contrato DocuSign ou Fechada/Ganha</description>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+    RecordType.Name = &quot;Oportunidades de Atendimento&quot;,
+    TEXT(Produto_Servico__c)=&apos;Aprendiz&apos;,
+    OR(
+								ISPICKVAL(Modalidade_da_contrata_o__c, &quot;EAD - Opção II (Economia 4.0)&quot;),
+        ISPICKVAL(Modalidade_da_contrata_o__c, &quot;EAD - Opção III (Atividade fim)&quot;)
+    ),
+    OR(
+        TEXT(StageName) = &quot;Contrato DocuSign&quot;,
+        TEXT(StageName) = &quot;Fechado / Ganho&quot;
+    ),
+    Dados_validados__c = FALSE
+))</errorConditionFormula>
+    <errorDisplayField>Dados_validados__c</errorDisplayField>
+    <errorMessage>Verificar se os dados da Conta estão de acordo com a Receita Federal.</errorMessage>
+</ValidationRule>

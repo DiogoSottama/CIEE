@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Servicos_apresentados__c</fullName>
+    <externalId>false</externalId>
+    <label>Serviços apresentados</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Estágio</fullName>
+                <default>false</default>
+                <label>Estágio</label>
+            </value>
+            <value>
+                <fullName>Aprendiz</fullName>
+                <default>false</default>
+                <label>Aprendiz</label>
+            </value>
+            <value>
+                <fullName>Aprendiz Empregador</fullName>
+                <default>false</default>
+                <label>Aprendiz Empregador</label>
+            </value>
+            <value>
+                <fullName>Aprendiz Capacitador</fullName>
+                <default>false</default>
+                <label>Aprendiz Capacitador</label>
+            </value>
+            <value>
+                <fullName>Arco em Ocupações Agrícolas</fullName>
+                <default>false</default>
+                <label>Arco em Ocupações Agrícolas</label>
+            </value>
+            <value>
+                <fullName>CIEE Educação</fullName>
+                <default>false</default>
+                <label>CIEE Educação</label>
+            </value>
+            <value>
+                <fullName>CIEE em Movimento</fullName>
+                <default>false</default>
+                <label>CIEE em Movimento</label>
+            </value>
+            <value>
+                <fullName>CIEE Global Connection (Estágio Internacional)</fullName>
+                <default>false</default>
+                <label>CIEE Global Connection (Estágio Internacional)</label>
+            </value>
+            <value>
+                <fullName>CIEE One</fullName>
+                <default>false</default>
+                <label>CIEE One</label>
+            </value>
+            <value>
+                <fullName>CIEE Saúde</fullName>
+                <default>false</default>
+                <label>CIEE Saúde</label>
+            </value>
+            <value>
+                <fullName>Clube CIEE+</fullName>
+                <default>false</default>
+                <label>Clube CIEE+</label>
+            </value>
+            <value>
+                <fullName>Jovem Talento</fullName>
+                <default>false</default>
+                <label>Jovem Talento</label>
+            </value>
+            <value>
+                <fullName>Lab CIEE</fullName>
+                <default>false</default>
+                <label>Lab CIEE</label>
+            </value>
+            <value>
+                <fullName>Programas de Inclusão</fullName>
+                <default>false</default>
+                <label>Programas de Inclusão</label>
+            </value>
+            <value>
+                <fullName>Somos CIEE</fullName>
+                <default>false</default>
+                <label>Somos CIEE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

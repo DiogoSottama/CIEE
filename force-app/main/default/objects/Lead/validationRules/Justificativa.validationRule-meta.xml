@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Justificativa</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(($Permission.Bypass_Permission = False),
+AND(
+ISPICKVAL(Motivo_de_Desqualifica_o__c , &quot;Outros&quot;),
+ISBLANK(Justificativa__c)))</errorConditionFormula>
+    <errorDisplayField>Justificativa__c</errorDisplayField>
+    <errorMessage>Ao escolher &quot;Outros&quot;, é obrigatório justificar o motivo de desqualificação</errorMessage>
+</ValidationRule>

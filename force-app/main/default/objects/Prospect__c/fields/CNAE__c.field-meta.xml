@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CNAE__c</fullName>
+    <externalId>false</externalId>
+    <label>CNAE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01..03 AGRICULTURA PECUÁRIA PRODUÇÃO FLORESTAL PESCA E AQÜICULTURA</fullName>
+                <default>false</default>
+                <label>01..03 AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA</label>
+            </value>
+            <value>
+                <fullName>05..09 INDÚSTRIAS EXTRATIVAS</fullName>
+                <default>false</default>
+                <label>05..09 INDÚSTRIAS EXTRATIVAS</label>
+            </value>
+            <value>
+                <fullName>10..33 INDÚSTRIAS DE TRANSFORMAÇÃO</fullName>
+                <default>false</default>
+                <label>10..33 INDÚSTRIAS DE TRANSFORMAÇÃO</label>
+            </value>
+            <value>
+                <fullName>35..35 ELETRICIDADE E GÁS</fullName>
+                <default>false</default>
+                <label>35..35 ELETRICIDADE E GÁS</label>
+            </value>
+            <value>
+                <fullName>36..39 ÁGUA ESGOTO ATIVIDADES DE GESTÃO DE RESÍDUOS E DESCONTAMINAÇÃO</fullName>
+                <default>false</default>
+                <label>36..39 ÁGUA, ESGOTO, ATIVIDADES DE GESTÃO DE RESÍDUOS E DESCONTAMINAÇÃO</label>
+            </value>
+            <value>
+                <fullName>41..43 CONSTRUÇÃO</fullName>
+                <default>false</default>
+                <label>41..43 CONSTRUÇÃO</label>
+            </value>
+            <value>
+                <fullName>45..47 COMÉRCIO REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS</fullName>
+                <default>false</default>
+                <label>45..47 COMÉRCIO; REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS</label>
+            </value>
+            <value>
+                <fullName>49..53 TRANSPORTE ARMAZENAGEM E CORREIO</fullName>
+                <default>false</default>
+                <label>49..53 TRANSPORTE, ARMAZENAGEM E CORREIO</label>
+            </value>
+            <value>
+                <fullName>55..56 ALOJAMENTO E ALIMENTAÇÃO</fullName>
+                <default>false</default>
+                <label>55..56 ALOJAMENTO E ALIMENTAÇÃO</label>
+            </value>
+            <value>
+                <fullName>58..63 INFORMAÇÃO E COMUNICAÇÃO</fullName>
+                <default>false</default>
+                <label>58..63 INFORMAÇÃO E COMUNICAÇÃO</label>
+            </value>
+            <value>
+                <fullName>64..66 ATIVIDADES FINANCEIRAS DE SEGUROS E SERVIÇOS RELACIONADOS</fullName>
+                <default>false</default>
+                <label>64..66 ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVIÇOS RELACIONADOS</label>
+            </value>
+            <value>
+                <fullName>68..68 ATIVIDADES IMOBILIÁRIAS</fullName>
+                <default>false</default>
+                <label>68..68 ATIVIDADES IMOBILIÁRIAS</label>
+            </value>
+            <value>
+                <fullName>69..75 ATIVIDADES PROFISSIONAIS CIENTÍFICAS E TÉCNICAS</fullName>
+                <default>false</default>
+                <label>69..75 ATIVIDADES PROFISSIONAIS, CIENTÍFICAS E TÉCNICAS</label>
+            </value>
+            <value>
+                <fullName>77..82 ATIVIDADES ADMINISTRATIVAS E SERVIÇOS COMPLEMENTARES</fullName>
+                <default>false</default>
+                <label>77..82 ATIVIDADES ADMINISTRATIVAS E SERVIÇOS COMPLEMENTARES</label>
+            </value>
+            <value>
+                <fullName>84..84 ADMINISTRAÇÃO PÚBLICA DEFESA E SEGURIDADE SOCIAL</fullName>
+                <default>false</default>
+                <label>84..84 ADMINISTRAÇÃO PÚBLICA, DEFESA E SEGURIDADE SOCIAL</label>
+            </value>
+            <value>
+                <fullName>85..85 EDUCAÇÃO</fullName>
+                <default>false</default>
+                <label>85..85 EDUCAÇÃO</label>
+            </value>
+            <value>
+                <fullName>86..88 SAÚDE HUMANA E SERVIÇOS SOCIAIS</fullName>
+                <default>false</default>
+                <label>86..88 SAÚDE HUMANA E SERVIÇOS SOCIAIS</label>
+            </value>
+            <value>
+                <fullName>90..93 ARTES CULTURA ESPORTE E RECREAÇÃO</fullName>
+                <default>false</default>
+                <label>90..93 ARTES, CULTURA, ESPORTE E RECREAÇÃO</label>
+            </value>
+            <value>
+                <fullName>94..96 OUTRAS ATIVIDADES DE SERVIÇOS</fullName>
+                <default>false</default>
+                <label>94..96 OUTRAS ATIVIDADES DE SERVIÇOS</label>
+            </value>
+            <value>
+                <fullName>97..97 SERVIÇOS DOMÉSTICOS</fullName>
+                <default>false</default>
+                <label>97..97 SERVIÇOS DOMÉSTICOS</label>
+            </value>
+            <value>
+                <fullName>99..99 ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS</fullName>
+                <default>false</default>
+                <label>99..99 ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS</label>
+            </value>
+            <value>
+                <fullName>Estudante</fullName>
+                <default>false</default>
+                <label>Estudante</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

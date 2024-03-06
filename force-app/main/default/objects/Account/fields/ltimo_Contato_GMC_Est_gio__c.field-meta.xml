@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ltimo_Contato_GMC_Est_gio__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Data do último contato com a empresa para gestão e manutenção de contratos</inlineHelpText>
+    <label>Último Contato GMC (Estágio)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

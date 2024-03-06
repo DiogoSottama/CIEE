@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enviado_p_Relat_rio</fullName>
+    <columns>NAME</columns>
+    <columns>Conta__c</columns>
+    <columns>Check_in__c</columns>
+    <columns>Km__c</columns>
+    <columns>Valor_do_Reembolso_de_KM__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Enviado_para_o_Relatorio</value>
+    </filters>
+    <label>Enviado p/ Relatório (Pendente Aprov.)</label>
+</ListView>

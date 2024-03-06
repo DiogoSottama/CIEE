@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validar_preenchimento_unico</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+        AND(
+            NOT(ISBLANK(Conta__c)),
+            NOT(ISBLANK(Lead__c)),
+            ISBLANK(Prospect__c)),
+        AND(
+            NOT(ISBLANK(Conta__c)),
+            NOT(ISBLANK(Lead__c)),
+            NOT(ISBLANK(Prospect__c))),
+        AND(
+            ISBLANK(Conta__c),
+            NOT(ISBLANK(Lead__c)),
+            NOT(ISBLANK(Prospect__c))),
+        AND(
+            NOT(ISBLANK(Conta__c)),
+            ISBLANK(Lead__c),
+            NOT(ISBLANK(Prospect__c)))
+)</errorConditionFormula>
+    <errorMessage>Preencher apenas uma Conta, ou um Lead, ou um Prospect.</errorMessage>
+</ValidationRule>

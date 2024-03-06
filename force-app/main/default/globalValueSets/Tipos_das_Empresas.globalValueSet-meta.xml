@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1</fullName>
+        <default>true</default>
+        <label>Privada</label>
+    </customValue>
+    <customValue>
+        <fullName>2</fullName>
+        <default>false</default>
+        <label>Pública</label>
+    </customValue>
+    <customValue>
+        <fullName>3</fullName>
+        <default>false</default>
+        <label>Economia Mista</label>
+    </customValue>
+    <customValue>
+        <fullName>4</fullName>
+        <default>false</default>
+        <label>Profissional Liberal</label>
+    </customValue>
+    <customValue>
+        <fullName>Instituição de Ensino</fullName>
+        <default>false</default>
+        <label>Instituição de Ensino</label>
+    </customValue>
+    <customValue>
+        <fullName>CMDCA</fullName>
+        <default>false</default>
+        <label>CMDCA</label>
+    </customValue>
+    <customValue>
+        <fullName>Unidade CIEE</fullName>
+        <default>false</default>
+        <label>Unidade CIEE</label>
+    </customValue>
+    <customValue>
+        <fullName>Espaço de Cidadania CIEE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Espaço de Cidadania CIEE</label>
+    </customValue>
+    <customValue>
+        <fullName>Polo de Capacitação CIEE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Polo de Capacitação CIEE</label>
+    </customValue>
+    <customValue>
+        <fullName>Posto de Atendimento CIEE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Posto de Atendimento CIEE</label>
+    </customValue>
+    <masterLabel>Tipos das Empresas</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

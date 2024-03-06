@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Produto_Servico__c</fullName>
+    <externalId>false</externalId>
+    <label>Produto/Serviço</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aprendiz</fullName>
+                <default>false</default>
+                <label>Aprendiz</label>
+            </value>
+            <value>
+                <fullName>Aprendiz Agronegócio Capacitador</fullName>
+                <default>false</default>
+                <label>Aprendiz Agronegócio Capacitador</label>
+            </value>
+            <value>
+                <fullName>Aprendiz Agronegócio Empregador</fullName>
+                <default>false</default>
+                <label>Aprendiz Agronegócio Empregador</label>
+            </value>
+            <value>
+                <fullName>Aprendiz Capacitador</fullName>
+                <default>false</default>
+                <label>Aprendiz Capacitador</label>
+            </value>
+            <value>
+                <fullName>Aprendiz Empregador</fullName>
+                <default>false</default>
+                <label>Aprendiz Empregador</label>
+            </value>
+            <value>
+                <fullName>CIEE Educação</fullName>
+                <default>false</default>
+                <label>CIEE Educação</label>
+            </value>
+            <value>
+                <fullName>CIEE em Movimento</fullName>
+                <default>false</default>
+                <label>CIEE em Movimento</label>
+            </value>
+            <value>
+                <fullName>CIEE eSports</fullName>
+                <default>false</default>
+                <label>CIEE eSports</label>
+            </value>
+            <value>
+                <fullName>CIEE Global Connection (Estágio Internacional)</fullName>
+                <default>false</default>
+                <label>CIEE Global Connection (Estágio Internacional)</label>
+            </value>
+            <value>
+                <fullName>CIEE Saúde</fullName>
+                <default>false</default>
+                <label>CIEE Saúde</label>
+            </value>
+            <value>
+                <fullName>Clube CIEE+</fullName>
+                <default>false</default>
+                <label>Clube CIEE+</label>
+            </value>
+            <value>
+                <fullName>Estágio</fullName>
+                <default>false</default>
+                <label>Estágio</label>
+            </value>
+            <value>
+                <fullName>Estágio e Aprendiz</fullName>
+                <default>false</default>
+                <label>Estágio e Aprendiz</label>
+            </value>
+            <value>
+                <fullName>Estágio - Jovem Talento</fullName>
+                <default>false</default>
+                <label>Estágio - Jovem Talento</label>
+            </value>
+            <value>
+                <fullName>Expo</fullName>
+                <default>false</default>
+                <label>Expo</label>
+            </value>
+            <value>
+                <fullName>Expo CIEE</fullName>
+                <default>false</default>
+                <label>Expo CIEE</label>
+            </value>
+            <value>
+                <fullName>Festival CIEE da Diversidade</fullName>
+                <default>false</default>
+                <label>Festival CIEE da Diversidade</label>
+            </value>
+            <value>
+                <fullName>Hackathon</fullName>
+                <default>false</default>
+                <label>Hackathon</label>
+            </value>
+            <value>
+                <fullName>Jornada CIEE</fullName>
+                <default>false</default>
+                <label>Jornada CIEE</label>
+            </value>
+            <value>
+                <fullName>Jovem Talento</fullName>
+                <default>false</default>
+                <label>Jovem Talento</label>
+            </value>
+            <value>
+                <fullName>Lab CIEE</fullName>
+                <default>false</default>
+                <label>Lab CIEE</label>
+            </value>
+            <value>
+                <fullName>MBA FIA</fullName>
+                <default>false</default>
+                <label>MBA FIA</label>
+            </value>
+            <value>
+                <fullName>One</fullName>
+                <default>false</default>
+                <label>One</label>
+            </value>
+            <value>
+                <fullName>Outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+            <value>
+                <fullName>Prêmio CIEE ESG</fullName>
+                <default>false</default>
+                <label>Prêmio CIEE ESG</label>
+            </value>
+            <value>
+                <fullName>Programas de Inclusão</fullName>
+                <default>false</default>
+                <label>Programas de Inclusão</label>
+            </value>
+            <value>
+                <fullName>Somos CIEE</fullName>
+                <default>false</default>
+                <label>Somos CIEE</label>
+            </value>
+            <value>
+                <fullName>Aprendiz Agro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aprendiz Agro</label>
+            </value>
+            <value>
+                <fullName>Aprendiz no Agronegócio</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aprendiz no Agronegócio</label>
+            </value>
+            <value>
+                <fullName>Arco em Ocupações Agrícolas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Arco em Ocupações Agrícolas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>celular_min_max</fullName>
+    <active>false</active>
+    <description>Essa regra determina o número máximo e mínimo de números a serem preenchidos no campo celular.</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(MobilePhone)),
+     (LEN(MobilePhone) &lt; 8) || (LEN(MobilePhone) &gt; 16)
+)</errorConditionFormula>
+    <errorDisplayField>MobilePhone</errorDisplayField>
+    <errorMessage>O número mínimo a ser preenchido deverá ser 8 e o máximo 16.</errorMessage>
+</ValidationRule>

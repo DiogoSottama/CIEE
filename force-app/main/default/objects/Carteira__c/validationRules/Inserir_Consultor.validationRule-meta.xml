@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inserir_Consultor</fullName>
+    <active>true</active>
+    <errorConditionFormula>Consultor__r.IsActive  = False</errorConditionFormula>
+    <errorDisplayField>Consultor__c</errorDisplayField>
+    <errorMessage>É necessário inserir um consultor válido.</errorMessage>
+</ValidationRule>

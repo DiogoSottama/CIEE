@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospects_do_Atendimento</fullName>
+    <active>true</active>
+    <label>Prospects do Atendimento</label>
+    <picklistValues>
+        <picklist>Area__c</picklist>
+        <values>
+            <fullName>Administrativo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financeiro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jurídico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secretariado%2FRecepção</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CNAE_Divisao__c</picklist>
+        <values>
+            <fullName>01 AGRICULTURA PECUÁRIA E SERVIÇOS RELACIONADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 PRODUÇÃO FLORESTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 PESCA E AQÜICULTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05 EXTRAÇÃO DE CARVÃO MINERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 EXTRAÇÃO DE PETRÓLEO E GÁS NATURAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 EXTRAÇÃO DE MINERAIS METÁLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08 EXTRAÇÃO DE MINERAIS NÃO-METÁLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09 ATIVIDADES DE APOIO À EXTRAÇÃO DE MINERAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 FABRICAÇÃO DE BEBIDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 FABRICAÇÃO DE PRODUTOS DO FUMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13 FABRICAÇÃO DE PRODUTOS TÊXTEIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14 CONFECÇÃO DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 PREPARAÇÃO DE COUROS E FABRICAÇÃO DE ARTEFATOS DE COURO ARTIGOS PARA VIAGEM E CALÇADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16 FABRICAÇÃO DE PRODUTOS DE MADEIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17 FABRICAÇÃO DE CELULOSE PAPEL E PRODUTOS DE PAPEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18 IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19 FABRICAÇÃO DE COQUE DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 FABRICAÇÃO DE PRODUTOS QUÍMICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21 FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22 FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>23 FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO-METÁLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24 METALURGIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25 FABRICAÇÃO DE PRODUTOS DE METAL EXCETO MÁQUINAS E EQUIPAMENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>26 FABRICAÇÃO DE EQUIPAMENTOS DE INFORMÁTICA PRODUTOS ELETRÔNICOS E ÓPTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>27 FABRICAÇÃO DE MÁQUINAS APARELHOS E MATERIAIS ELÉTRICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>28 FABRICAÇÃO DE MÁQUINAS E EQUIPAMENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>29 FABRICAÇÃO DE VEÍCULOS AUTOMOTORES REBOQUES E CARROCERIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 FABRICAÇÃO DE OUTROS EQUIPAMENTOS DE TRANSPORTE EXCETO VEÍCULOS AUTOMOTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31 FABRICAÇÃO DE MÓVEIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>32 FABRICAÇÃO DE PRODUTOS DIVERSOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>33 MANUTENÇÃO REPARAÇÃO E INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35 ELETRICIDADE GÁS E OUTRAS UTILIDADES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36 CAPTAÇÃO TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>37 ESGOTO E ATIVIDADES RELACIONADAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>38 COLETA TRATAMENTO E DISPOSIÇÃO DE RESÍDUOS RECUPERAÇÃO DE MATERIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>39 DESCONTAMINAÇÃO E OUTROS SERVIÇOS DE GESTÃO DE RESÍDUOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>41 CONSTRUÇÃO DE EDIFÍCIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>42 OBRAS DE INFRA-ESTRUTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>43 SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45 COMÉRCIO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>46 COMÉRCIO POR ATACADO EXCETO VEÍCULOS AUTOMOTORES E MOTOCICLETAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>47 COMÉRCIO VAREJISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>49 TRANSPORTE TERRESTRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50 TRANSPORTE AQUAVIÁRIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>51 TRANSPORTE AÉREO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>52 ARMAZENAMENTO E ATIVIDADES AUXILIARES DOS TRANSPORTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>53 CORREIO E OUTRAS ATIVIDADES DE ENTREGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>55 ALOJAMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>56 ALIMENTAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>58 EDIÇÃO E EDIÇÃO INTEGRADA À IMPRESSÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>59 ATIVIDADES CINEMATOGRÁFICAS PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO GRAVAÇÃO DE SOM E EDIÇÃO DE MÚSICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60 ATIVIDADES DE RÁDIO E DE TELEVISÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>61 TELECOMUNICAÇÕES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>62 ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>63 ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>64 ATIVIDADES DE SERVIÇOS FINANCEIROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>65 SEGUROS RESSEGUROS PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>66 ATIVIDADES AUXILIARES DOS SERVIÇOS FINANCEIROS SEGUROS PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>68 ATIVIDADES IMOBILIÁRIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>69 ATIVIDADES JURÍDICAS DE CONTABILIDADE E DE AUDITORIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>70 ATIVIDADES DE SEDES DE EMPRESAS E DE CONSULTORIA EM GESTÃO EMPRESARIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>71 SERVIÇOS DE ARQUITETURA E ENGENHARIA TESTES E ANÁLISES TÉCNICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>72 PESQUISA E DESENVOLVIMENTO CIENTÍFICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>73 PUBLICIDADE E PESQUISA DE MERCADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>74 OUTRAS ATIVIDADES PROFISSIONAIS CIENTÍFICAS E TÉCNICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75 ATIVIDADES VETERINÁRIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>77 ALUGUÉIS NÃO-IMOBILIÁRIOS E GESTÃO DE ATIVOS INTANGÍVEIS NÃO-FINANCEIROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>78 SELEÇÃO AGENCIAMENTO E LOCAÇÃO DE MÃO-DE-OBRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>79 AGÊNCIAS DE VIAGENS OPERADORES TURÍSTICOS E SERVIÇOS DE RESERVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>80 ATIVIDADES DE VIGILÂNCIA SEGURANÇA E INVESTIGAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>81 SERVIÇOS PARA EDIFÍCIOS E ATIVIDADES PAISAGÍSTICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82 SERVIÇOS DE ESCRITÓRIO DE APOIO ADMINISTRATIVO E OUTROS SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>84 ADMINISTRAÇÃO PÚBLICA DEFESA E SEGURIDADE SOCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>85 EDUCAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>86 ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>87 ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA INTEGRADAS COM ASSISTÊNCIA SOCIAL PRESTADAS EM RESIDÊNCIAS COLETIVAS E PARTICULARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>88 SERVIÇOS DE ASSISTÊNCIA SOCIAL SEM ALOJAMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90 ATIVIDADES ARTÍSTICAS CRIATIVAS E DE ESPETÁCULOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>91 ATIVIDADES LIGADAS AO PATRIMÔNIO CULTURAL E AMBIENTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>92 ATIVIDADES DE EXPLORAÇÃO DE JOGOS DE AZAR E APOSTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>93 ATIVIDADES ESPORTIVAS E DE RECREAÇÃO E LAZER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>94 ATIVIDADES DE ORGANIZAÇÕES ASSOCIATIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>95 REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>96 OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>97 SERVIÇOS DOMÉSTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99 ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estudante</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CNAE__c</picklist>
+        <values>
+            <fullName>01%2E%2E03 AGRICULTURA PECUÁRIA PRODUÇÃO FLORESTAL PESCA E AQÜICULTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05%2E%2E09 INDÚSTRIAS EXTRATIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E%2E33 INDÚSTRIAS DE TRANSFORMAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35%2E%2E35 ELETRICIDADE E GÁS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36%2E%2E39 ÁGUA ESGOTO ATIVIDADES DE GESTÃO DE RESÍDUOS E DESCONTAMINAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>41%2E%2E43 CONSTRUÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45%2E%2E47 COMÉRCIO REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>49%2E%2E53 TRANSPORTE ARMAZENAGEM E CORREIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>55%2E%2E56 ALOJAMENTO E ALIMENTAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>58%2E%2E63 INFORMAÇÃO E COMUNICAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>64%2E%2E66 ATIVIDADES FINANCEIRAS DE SEGUROS E SERVIÇOS RELACIONADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>68%2E%2E68 ATIVIDADES IMOBILIÁRIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>69%2E%2E75 ATIVIDADES PROFISSIONAIS CIENTÍFICAS E TÉCNICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>77%2E%2E82 ATIVIDADES ADMINISTRATIVAS E SERVIÇOS COMPLEMENTARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>84%2E%2E84 ADMINISTRAÇÃO PÚBLICA DEFESA E SEGURIDADE SOCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>85%2E%2E85 EDUCAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>86%2E%2E88 SAÚDE HUMANA E SERVIÇOS SOCIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90%2E%2E93 ARTES CULTURA ESPORTE E RECREAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>94%2E%2E96 OUTRAS ATIVIDADES DE SERVIÇOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>97%2E%2E97 SERVIÇOS DOMÉSTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99%2E%2E99 ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estudante</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Campanha__c</picklist>
+        <values>
+            <fullName>100 Maiores Bancos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AASP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Armazém Fit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ação Piracicaba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CDL Formosa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CISCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GERHAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicação MTE CG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>John Deere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maiores Empresas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migração</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR-SJBV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panfletagem JT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retomada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top Startups 2022</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cargo__c</picklist>
+        <values>
+            <fullName>Analista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auxiliar %2F Assistente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEO%2FCFO%2FCMO%2FPresidente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coordenador %2F Supervisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diretor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gerente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proprietário %2F Sócio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VP%2FSuperintendente</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gerencia_Regional1__c</picklist>
+        <values>
+            <fullName>CIEE Autônomo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR Centro Oeste e DF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR Grande São Paulo e Capital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR Nordeste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR Norte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR SP Interior e BH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gerencia_Regional__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_de_Desqualificacao__c</picklist>
+        <values>
+            <fullName>CIEE Autônomo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo MG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo PE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo RJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo RS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concorrente Modelo de Atendimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concorrente Preço</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratação CLT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvidas sobre vagas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de retorno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Já trabalha com o concorrente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não demonstrou interesse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orçamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registro duplicado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem previsão para contratação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serviço gratuito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tentativas excedidas de contato</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origem_do_prospect__c</picklist>
+        <values>
+            <fullName>Cartão de visita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicação externa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicação interna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecção ativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pré Cadastro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receptivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Navigator %28LinkedIn%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WhatsApp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Servicos_apresentados__c</picklist>
+        <values>
+            <fullName>Aprendiz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aprendiz Capacitador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aprendiz Empregador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arco em Ocupações Agrícolas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Educação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Global Connection %28Estágio Internacional%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE One</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Saúde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE em Movimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clube CIEE%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estágio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jovem Talento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab CIEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programas de Inclusão</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Somos CIEE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status_do_prospect__c</picklist>
+        <values>
+            <fullName>Contatado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desqualificado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não contatado</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Qualificado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trabalha_com_algum_concorrente__c</picklist>
+        <values>
+            <fullName>99jobs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASH TALENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Across</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agiel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anima Recursos Humanos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cia de Talentos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Companhia de Estágios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Espro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estagilize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eureca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gelre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPP - Instituto Profissionalizante Paulista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISBET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instituição de ensino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instituto Via de Acesso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newik</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROE Estágios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rede Cidadã</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renapsi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SENAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Super Estágios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Universia Brasil %28Santander%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WallJobs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zuna</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unidade_de_Atendimento1__c</picklist>
+        <values>
+            <fullName>Aracaju</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barueri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bauru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belo Horizonte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belém</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brasília</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIEE Autônomo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camaçari</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campinas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campo Grande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuiabá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feira de Santana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fortaleza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goiânia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guarulhos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inclusão Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Itabuna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Itapetininga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>João Pessoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jundiaí</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maceió</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manaus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marília</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mogi Guaçu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piracicaba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Porto Velho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presidente Prudente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ribeirão Preto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salvador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sorocaba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São Caetano do Sul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São José do Rio Preto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São José dos Campos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São Luís</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>São Paulo Capital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taubaté</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teresina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vitória da Conquista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zona Leste</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unidade_de_Atendimento__c</picklist>
+        <values>
+            <fullName>101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>103</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>111</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>112</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>116</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>121</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1301</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>131</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1402</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>141</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1411</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1501</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>151</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>152</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1601</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>161</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1701</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1801</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>213</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2301</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2402</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2403</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2405</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2406</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2407</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2408</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2409</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2410</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2411</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2412</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2430</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2601</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>301</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>302</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>311</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>321</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administração Pública DF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agronegocio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazonas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Nacional de Licitações</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distrito Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inclusão Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mato Grosso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mato Grosso do Sul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Para</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rondonia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roraima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tocantins</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
