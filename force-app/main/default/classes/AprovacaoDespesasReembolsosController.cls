@@ -96,7 +96,7 @@ public class AprovacaoDespesasReembolsosController {
                 placeholder,
                 new List<Object>{
                     despesa.Check_In__c.format('yyyyMMdd'),
-                    despesa.Check_in__c.format('hh:MM'),
+                    despesa.Check_in__c.format('HH:mm'),
                     despesa.Duracao_da_Visita__c,
                     despesa.Nome_da_Empresa__c,
                     despesa.Km__c,

@@ -8,7 +8,7 @@ public class AprovacaoDespesasReembolsosCtrlrTest {
         Account acc = new Account(
             Name = 'Teste',
             BillingPostalCode = '01000-000',
-            CNPJ_CPF__c = '12345678998',
+            CNPJ_CPF__c = '06566005005',
             Gerencia_Regional__c = '1',
             CNAE__c = '01..03 AGRICULTURA PECUÁRIA PRODUÇÃO FLORESTAL PESCA E AQÜICULTURA',
             CNAE_Divisao__c = '01 AGRICULTURA PECUÁRIA E SERVIÇOS RELACIONADOS',
@@ -19,7 +19,7 @@ public class AprovacaoDespesasReembolsosCtrlrTest {
         Id idProfile = [SELECT Id FROM Profile WHERE Name = 'Administrador do sistema' OR Name = 'System Administrator'].Id;
         User user = new User(
             Alias = 'standt',
-            Email = 'standarduser@testorg.com',
+            Email = 'standarduser@ciee.org.br',
             EmailEncodingKey = 'UTF-8',
             LastName = 'Testing',
             LanguageLocaleKey = 'en_US',
