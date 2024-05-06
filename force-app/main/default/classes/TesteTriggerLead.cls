@@ -56,6 +56,8 @@ public class TesteTriggerLead {
         }                
         Test.startTest();
         insert testLeads;
+        testLeads[0].Company = 'teste.';
+        update testLeads;
         Test.stopTest();
         for (Lead lead : testLeads) {
             //System.assertEquals(true, lead.OwnerId != null, 'OwnerId não foi definido corretamente');

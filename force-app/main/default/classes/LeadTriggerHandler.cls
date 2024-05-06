@@ -21,12 +21,12 @@ public with sharing class LeadTriggerHandler {
             ];
 
             if (carteiras.size() > 0) {
-                newLead[0].OwnerId = carteiras[0].Apoio__c;
-                newLead[0].Consultor__c = carteiras[0].Consultor__c;
+                // newLead[0].OwnerId = carteiras[0].Apoio__c;
+                // newLead[0].Consultor__c = carteiras[0].Consultor__c;
             }
         }
         
-        ZipCodeLead.setAssignedUserByPostalCode(newLead);
+        //ZipCodeLead.setAssignedUserByPostalCode(newLead);
     }
 
     public void OnBeforeUpdate(List<Lead> newLead, List<Lead> oldLead, Map<ID, Lead> newLeadMap, Map<ID, Lead> oldLeadMap) {
@@ -41,8 +41,8 @@ public with sharing class LeadTriggerHandler {
             ];
 
             if (carteiras.size() > 0) {
-                newLead[0].OwnerId = carteiras[0].Apoio__c;
-                newLead[0].Consultor__c = carteiras[0].Consultor__c;
+                // newLead[0].OwnerId = carteiras[0].Apoio__c;
+                // newLead[0].Consultor__c = carteiras[0].Consultor__c;
             }
         }
     }

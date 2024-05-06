@@ -76,8 +76,11 @@ public class AprovacaoDespesasReembolsosController {
         return 'Sucesso';
     }
 
-    @AuraEnabled
-    public static String aprovarDespesaReembolso(List<Despesa_e_Reembolso__c> despesas) {
+    @InvocableMethod(label = 'Integrar Despesas e Reembolsos')
+    public static void aprovarDespesaReembolso(List<IntegrationParams> params) {
+
+        List<Despesa_e_Reembolso__c> despesas = params[0].lstDespesas;
+
         User user = [
             SELECT Id, CPF__c, CR__c, Matricula__c, Name
             FROM User
@@ -117,6 +120,11 @@ public class AprovacaoDespesasReembolsosController {
 
         update CODIGO_REEMBOLSO;
 
-        return 'Sucesso';
+       // return 'Sucesso';
+    }
+
+    public class IntegrationParams{
+        @invocableVariable
+        public List<Despesa_e_Reembolso__c> lstDespesas;
     }
 }
