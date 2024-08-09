@@ -6,12 +6,13 @@
     <columns>LEAD.LEAD_SOURCE</columns>
     <columns>LEAD.STATUS</columns>
     <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>NomeDaCampanha__c</columns>
     <columns>DataEHoraDeCriacaoDoLead__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>LEAD.CREATED_DATE</field>
-        <operation>greaterThan</operation>
-        <value>9/20/2020 12:00 AM</value>
+        <operation>greaterOrEqual</operation>
+        <value>4/2/2024 12:00 AM</value>
     </filters>
     <filters>
         <field>LEAD.LEAD_SOURCE</field>

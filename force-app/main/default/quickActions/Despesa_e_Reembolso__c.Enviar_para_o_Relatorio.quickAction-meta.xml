@@ -3,7 +3,7 @@
     <description>Envia para o aprovador a despesa e muda o status para Enviado para o Relatório.</description>
     <fieldOverrides>
         <field>Status__c</field>
-        <literalValue>Enviado_para_o_Relatorio</literalValue>
+        <literalValue>EnviadoParaRelatorio</literalValue>
     </fieldOverrides>
     <label>Enviar para o Relatório</label>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>

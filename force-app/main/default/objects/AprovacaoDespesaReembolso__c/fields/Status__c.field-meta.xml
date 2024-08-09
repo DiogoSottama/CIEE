@@ -3,9 +3,8 @@
     <fullName>Status__c</fullName>
     <externalId>false</externalId>
     <label>Status</label>
-    <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>true</trackHistory>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
@@ -13,24 +12,24 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Rascunho</fullName>
+                <fullName>Aberto</fullName>
                 <default>true</default>
-                <label>Rascunho</label>
+                <label>Aberto</label>
             </value>
             <value>
-                <fullName>Enviado_para_o_Relatorio</fullName>
+                <fullName>Pendente</fullName>
                 <default>false</default>
-                <label>Enviado para o Relatório</label>
-            </value>
-            <value>
-                <fullName>Recusado</fullName>
-                <default>false</default>
-                <label>Recusado Pelo Gestor</label>
+                <label>Pendente</label>
             </value>
             <value>
                 <fullName>Aprovado</fullName>
                 <default>false</default>
-                <label>Aprovado Pelo Gestor</label>
+                <label>Aprovado</label>
+            </value>
+            <value>
+                <fullName>Reprovado</fullName>
+                <default>false</default>
+                <label>Reprovado</label>
             </value>
         </valueSetDefinition>
     </valueSet>

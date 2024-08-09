@@ -17,7 +17,9 @@ public class UploadExpenseToAmazonS3 implements Queueable, Database.AllowsCallou
         request.setBody(FILE_TO_UPLOAD);
         
         HttpResponse response = new Http().send(request);
-
+        Logger log = new Logger();
+        log.setInfoCab('AprovacaoDespesasReembolsosController', 'buscarDados');
+        log.setInfoIntegracao(response.toString(), FILE_TO_UPLOAD, response.getStatus());
         System.debug(response.getBody());
     }
 }

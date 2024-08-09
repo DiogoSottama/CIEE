@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR01_StatusAprovacao</fullName>
+    <active>false</active>
+    <description>Não permir alterar o status da aprovação quando ele for avaliado pelo aprovador</description>
+    <errorConditionFormula>AND(
+				OR(
+				 			TEXT(PRIORVALUE(Status__c)) = &apos;Aprovado&apos;,
+								TEXT(PRIORVALUE(Status__c)) = &apos;Reprovado&apos;
+				),
+				ISCHANGED(Status__c) = true 
+)</errorConditionFormula>
+    <errorMessage>Não é possível alterar o status de aprovação (VR01)</errorMessage>
+</ValidationRule>

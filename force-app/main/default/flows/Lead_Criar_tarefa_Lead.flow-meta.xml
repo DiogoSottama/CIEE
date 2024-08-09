@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Origem_do_Lead</name>
+        <label>Origem do Lead</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Midia_Digital</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LeadSource</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>midia_digital</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Nova_Tarefa_Lead_Midias</targetReference>
+            </connector>
+            <label>Mídia Digital</label>
+        </rules>
+        <rules>
+            <name>Outras_Origens</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LeadSource</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>midia_digital</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Nova_Task</targetReference>
+            </connector>
+            <label>Outras Origens</label>
+        </rules>
+    </decisions>
     <environments>Default</environments>
+    <formulas>
+        <name>Datetime</name>
+        <dataType>DateTime</dataType>
+        <expression>DATETIMEVALUE(TEXT( {!$Record.CreatedDate + (1/24) * 2}))</expression>
+    </formulas>
     <interviewLabel>[Lead] - Criar tarefa Lead {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Lead] - Criar Tarefa Lead</label>
     <processMetadataValues>
@@ -24,10 +66,72 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordCreates>
+        <name>Nova_Tarefa_Lead_Midias</name>
+        <label>Nova_Tarefa_Lead_Midias</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>Datetime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>DataVencimento__c</field>
+            <value>
+                <elementReference>Datetime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Descricao__c</field>
+            <value>
+                <stringValue>Um lead foi criado. Favor enviar a apresentação e dar andamento nas tratativas.</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Alta</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <elementReference>BuscaIDTask.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Pendente</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Atualizar Lead</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhoId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
         <name>Nova_Task</name>
         <label>Nova_Tarefa</label>
-        <locationX>176</locationX>
-        <locationY>431</locationY>
+        <locationX>314</locationX>
+        <locationY>539</locationY>
         <inputAssignments>
             <field>ActivityDate</field>
             <value>
@@ -82,11 +186,11 @@
     <recordLookups>
         <name>BuscaIDTask</name>
         <label>BuscaIDTask</label>
-        <locationX>176</locationX>
+        <locationX>314</locationX>
         <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Nova_Task</targetReference>
+            <targetReference>Origem_do_Lead</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -108,7 +212,7 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
-        <locationX>50</locationX>
+        <locationX>188</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>BuscaIDTask</targetReference>
