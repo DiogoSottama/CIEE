@@ -95,7 +95,7 @@ public class AprovacaoDespesasReembolsosController {
     }
 
     @InvocableMethod(label = 'Integrar Despesas e Reembolsos')
-    public static void aprovarDespesaReembolso(List<IntegrationParams> params) {
+    public static void aprovarDespesaReembolsoIn(List<IntegrationParams> params) {
         Logger log = new Logger();
         log.setInfoCab('AprovacaoDespesasReembolsosController', 'buscarDados');
         try{
@@ -149,6 +149,58 @@ public class AprovacaoDespesasReembolsosController {
         }
 
        // return 'Sucesso';
+    }
+
+    @AuraEnabled
+    public static String aprovarDespesaReembolso(List<Despesa_e_Reembolso__c> despesas) {
+        Logger log = new Logger();
+        log.setInfoCab('AprovacaoDespesasReembolsosController', 'buscarDados');
+        try{
+            User user = [
+                SELECT Id, CPF__c, CR__c, Matricula__c, Name
+                FROM User
+                WHERE Id = :despesas[0].CreatedById
+            ];
+    
+            String txtFile = String.format(
+                'C|01|0001|U_CEAIA38|3|{0}|{1}|{2}|{3}|{4}\n',
+                new List<Object>{ user.CPF__c, user.Matricula__c, user.Name, user.CR__c, (Integer) CODIGO_REEMBOLSO.Codigo__c }
+            );
+    
+            String placeholder = 'I|{0}|{1}|{2}|{3}|{4}|{5}|0|0|0|0|0|{5}\n';
+    
+            for (Despesa_e_Reembolso__c despesa : despesas) {
+                txtFile += String.format(
+                    placeholder,
+                    new List<Object>{
+                        despesa.Check_In__c.format('yyyyMMdd'),
+                        despesa.Check_in__c.format('HH:mm'),
+                        despesa.Duracao_da_Visita__c,
+                        despesa.Nome_da_Empresa__c,
+                        despesa.Km__c,
+                        Integer.valueOf(despesa.Valor_do_Reembolso_de_KM__c * 100)
+                    }
+                );
+    
+                despesa.Status__c = 'Aprovado';
+            }
+    
+            System.debug('txtFile:' + txtFile);
+    
+            System.enqueueJob(new UploadExpenseToAmazonS3(txtFile, (Integer) CODIGO_REEMBOLSO.Codigo__c + '.txt'));
+    
+            update despesas;
+    
+            CODIGO_REEMBOLSO.Codigo__c += 1;
+    
+            update CODIGO_REEMBOLSO;
+            log.setInfoException(CODIGO_REEMBOLSO.Codigo__c+'.txt' , txtFile, 'Info');
+        }catch(Exception ex){
+            log.setInfoException(ex.getMessage() , ex.getStackTraceString(), 'Erro');
+        }finally{
+            log.gravarLog();
+        }
+        return 'Sucesso';
     }
 
     public class IntegrationParams{
